@@ -1,0 +1,457 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>akayi写字的地方</title>
+  
+  <subtitle>AKAYI&#39;S GARDEN</subtitle>
+  <link href="https://akayi07.github.io/atom.xml" rel="self"/>
+  
+  <link href="https://akayi07.github.io/"/>
+  <updated>2021-03-03T05:28:07.307Z</updated>
+  <id>https://akayi07.github.io/</id>
+  
+  <author>
+    <name>卓利苗(Zhuo Limiao)</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title></title>
+    <link href="https://akayi07.github.io/2021/03/03/2021-03-03-%E5%AD%A6%E4%B9%A0/"/>
+    <id>https://akayi07.github.io/2021/03/03/2021-03-03-%E5%AD%A6%E4%B9%A0/</id>
+    <published>2021-03-03T05:28:07.307Z</published>
+    <updated>2021-03-03T05:28:07.307Z</updated>
+    
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Flash-Vue-Admin</title>
+    <link href="https://akayi07.github.io/2021/02/04/2021-02-04-flash-vue-admin/"/>
+    <id>https://akayi07.github.io/2021/02/04/2021-02-04-flash-vue-admin/</id>
+    <published>2021-02-03T16:00:00.000Z</published>
+    <updated>2021-02-03T16:00:00.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>有个项目是之前的同事做的，他很厉害，前后端一个人做的，但是他和领导闹矛盾一气之下辞职了，这个项目还没完成，bug很多，公司当时会vue的人只有我，所以就落到我这里了。本来9月左右我把bug解决了，没想到这么久了客户提出了新的需求和bug。</p><p>本来也没什么，但是vue我不够熟悉，这两天遇到的bug和需求设计vant和vue，我相当于速成了vant，总算解决了，其他没什么，和elementui差不多，主要是多选框卡住了，客户急用，幸好2天解决了，因为6号就放假了，那就尴尬了。</p><p>总结：<br>1.vant-checkbox-group用toggle选择、取消选择<br>2.对于对象直接赋值添加属性是非响应式，需要Object.assign或者this.$set<br>通过这次经历，我对vue更加熟悉了，也初步入门了vant</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;有个项目是之前的同事做的，他很厉害，前后端一个人做的，但是他和领导闹矛盾一气之下辞职了，这个项目还没完成，bug很多，公司当时会vue的人只有我，所以就落到我这里了。本来9月左右我把bug解决了，没想到这么久了客户提出了新的需求和bug。&lt;/p&gt;
+&lt;p&gt;本来也没什么，但是v</summary>
+      
+    
+    
+    
+    
+    <category term="随笔" scheme="https://akayi07.github.io/tags/%E9%9A%8F%E7%AC%94/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>用Hexo重新创建博客的过程与心得</title>
+    <link href="https://akayi07.github.io/2021/01/25/2021-01-25-%E7%94%A8hexo%E9%87%8D%E6%96%B0%E5%88%9B%E5%BB%BA%E5%8D%9A%E5%AE%A2%E7%9A%84%E8%BF%87%E7%A8%8B%E4%B8%8E%E5%BF%83%E5%BE%97/"/>
+    <id>https://akayi07.github.io/2021/01/25/2021-01-25-%E7%94%A8hexo%E9%87%8D%E6%96%B0%E5%88%9B%E5%BB%BA%E5%8D%9A%E5%AE%A2%E7%9A%84%E8%BF%87%E7%A8%8B%E4%B8%8E%E5%BF%83%E5%BE%97/</id>
+    <published>2021-01-24T16:00:00.000Z</published>
+    <updated>2021-01-24T16:00:00.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>这个博客之前是用jekyll写的，那是16年或17年左右，当时决定跨专业考研计算机，具体也忘了，反正在github上写了博客，不太懂就直接用的fork的网友的模板。</p><p>最近用hexo重新写了，这回是自己一个个设置过去的，入行到月底差不多10个月了，而且其实前端我在17年-18年左右就自学过了，只不过没有自信没有去面试这行的工作，我看了下设置的文件，很多都能看懂，还学到了不少，记录一下。</p><p>我设置了点击心形，这个是用requestAnimationFrame实现的，比setTimeout/setInterval要好，不会等浏览器UI线程队列的任务完成后再执行，节省系统资源。</p>]]></content>
+    
+    
+    <summary type="html">这个博客之前是用jekyll写的，现在改成了hexo</summary>
+    
+    
+    
+    
+    <category term="随笔" scheme="https://akayi07.github.io/tags/%E9%9A%8F%E7%AC%94/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="https://akayi07.github.io/2021/01/22/hello-world/"/>
+    <id>https://akayi07.github.io/2021/01/22/hello-world/</id>
+    <published>2021-01-22T02:29:26.462Z</published>
+    <updated>2021-01-22T02:29:26.462Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>读书记录</title>
+    <link href="https://akayi07.github.io/2020/10/23/2020-10-23-%E8%AF%BB%E4%B9%A6%E8%AE%B0%E5%BD%95/"/>
+    <id>https://akayi07.github.io/2020/10/23/2020-10-23-%E8%AF%BB%E4%B9%A6%E8%AE%B0%E5%BD%95/</id>
+    <published>2020-10-22T16:00:00.000Z</published>
+    <updated>2020-10-22T16:00:00.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>1.（20201024读完）《超新星纪元》，刘慈欣 <br><br>2.(20201022前读完)《半小时漫画经济学1-4》 <br><br>3.(20201024开始——)《GEB》，侯世达 <br><br>4.（20201028——）《剑桥中华民国史（1912年——1914年）》 <br><br>5.（20201027——）《剑桥中国史全集》 <br><br>6.（约20201026——）《沙丘》六部曲 <br><br>6.（20201030——20201109）《中国史纲》<br></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;1.（20201024读完）《超新星纪元》，刘慈欣 &lt;br&gt;&lt;br&gt;2.(20201022前读完)《半小时漫画经济学1-4》 &lt;br&gt;&lt;br&gt;3.(20201024开始——)《GEB》，侯世达 &lt;br&gt;&lt;br&gt;4.（20201028——）《剑桥中华民国史（1912年——19</summary>
+      
+    
+    
+    
+    
+    <category term="随笔" scheme="https://akayi07.github.io/tags/%E9%9A%8F%E7%AC%94/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>点击事件</title>
+    <link href="https://akayi07.github.io/2020/10/21/2020-10-21-%E7%82%B9%E5%87%BB%E4%BA%8B%E4%BB%B6/"/>
+    <id>https://akayi07.github.io/2020/10/21/2020-10-21-%E7%82%B9%E5%87%BB%E4%BA%8B%E4%BB%B6/</id>
+    <published>2020-10-20T16:00:00.000Z</published>
+    <updated>2020-10-20T16:00:00.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>项目有个bug，由此学习了事件的一些知识。<br><br><br>1.this会冒泡,e.target不冒泡就是指向事件触发的dom。<br><br><br>2.<br>event.target<br><br><br>event.target.nodeName  　　//获取事件触发元素标签name（li,p…）<br><br><br>event.target.id　　　　　　　//获取事件触发元素id<br><br><br>event.target.className　　//获取事件触发元素classname<br><br><br>event.target.innerHTML　　//获取事件触发元素的内容（li）<br><br><br>3.<br>事件委托就是事件目标自身不处理事件，而是把处理任务委托给其父元素或者祖先元素，甚至根元素（document）。<br><br><br>使用事件委托时，如果目标元素上的其他事件处理程序使用.stopPropagation()阻止了事件传播，那么事件委托就会失效。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;项目有个bug，由此学习了事件的一些知识。&lt;br&gt;&lt;br&gt;&lt;br&gt;1.this会冒泡,e.target不冒泡就是指向事件触发的dom。&lt;br&gt;&lt;br&gt;&lt;br&gt;2.&lt;br&gt;event.target&lt;br&gt;&lt;br&gt;&lt;br&gt;event.target.nodeName  　　//获</summary>
+      
+    
+    
+    
+    
+    <category term="随笔" scheme="https://akayi07.github.io/tags/%E9%9A%8F%E7%AC%94/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>后台返回完整的HTML页面代码</title>
+    <link href="https://akayi07.github.io/2020/10/19/2020-10-19-%E5%90%8E%E5%8F%B0%E8%BF%94%E5%9B%9E%E5%AE%8C%E6%95%B4%E7%9A%84HTML%E9%A1%B5%E9%9D%A2%E4%BB%A3%E7%A0%81/"/>
+    <id>https://akayi07.github.io/2020/10/19/2020-10-19-%E5%90%8E%E5%8F%B0%E8%BF%94%E5%9B%9E%E5%AE%8C%E6%95%B4%E7%9A%84HTML%E9%A1%B5%E9%9D%A2%E4%BB%A3%E7%A0%81/</id>
+    <published>2020-10-18T16:00:00.000Z</published>
+    <updated>2020-10-18T16:00:00.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>上周五客户要求能查看html页面，接口返回的是html代码，解决办法是需要中转页面，用document.write()方法重写整个页面,<br><br><br>中转页面：<br>===</p><script>    document.write(localStorage.getItem(response));    document.close();</script>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;上周五客户要求能查看html页面，接口返回的是html代码，解决办法是需要中转页面，用document.write()方法重写整个页面,&lt;br&gt;&lt;br&gt;&lt;br&gt;中转页面：&lt;br&gt;===&lt;/p&gt;
+&lt;script&gt;
+    document.write(localStorage</summary>
+      
+    
+    
+    
+    
+    <category term="随笔" scheme="https://akayi07.github.io/tags/%E9%9A%8F%E7%AC%94/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Ie9兼容</title>
+    <link href="https://akayi07.github.io/2020/09/29/2020-09-29-ie9%E5%85%BC%E5%AE%B9/"/>
+    <id>https://akayi07.github.io/2020/09/29/2020-09-29-ie9%E5%85%BC%E5%AE%B9/</id>
+    <published>2020-09-28T16:00:00.000Z</published>
+    <updated>2020-09-28T16:00:00.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>layui项目，本来是我写的，后面其他项目急交给同事了，这两天同事被辞了还是我做，ie9的兼容性难搞啊，不过我通过分析layui源码都解决了，还剩一个问题，上传文件，返回是json的话ie9会显示保存/下载打断获取返回值，正好这两天负责的<br>后端出差，我研究了两天后端代码，发现是webapi问题，需要设置contenttype,后端不懂我更不懂了，我就自学过javase，看是能看懂，最后我想了个办法，后端回来说就这样办，用另一个接口去返回url。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;layui项目，本来是我写的，后面其他项目急交给同事了，这两天同事被辞了还是我做，ie9的兼容性难搞啊，不过我通过分析layui源码都解决了，还剩一个问题，上传文件，返回是json的话ie9会显示保存/下载打断获取返回值，正好这两天负责的&lt;br&gt;后端出差，我研究了两天后端代</summary>
+      
+    
+    
+    
+    
+    <category term="随笔" scheme="https://akayi07.github.io/tags/%E9%9A%8F%E7%AC%94/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Layui</title>
+    <link href="https://akayi07.github.io/2020/08/19/2020-08-19-layui/"/>
+    <id>https://akayi07.github.io/2020/08/19/2020-08-19-layui/</id>
+    <published>2020-08-18T16:00:00.000Z</published>
+    <updated>2020-08-18T16:00:00.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>做了一个之前项目的配套项目，用vue快写完了，项目经理说为了统一要用layui，之前沟通不畅，没办法，只能重写。<br>layui我发现单选框出不来title，之前用改样式的方法解决的，今天发现是没有把表单放在form里，当然，这是layui的源码决定的吧，在此记录。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;做了一个之前项目的配套项目，用vue快写完了，项目经理说为了统一要用layui，之前沟通不畅，没办法，只能重写。&lt;br&gt;layui我发现单选框出不来title，之前用改样式的方法解决的，今天发现是没有把表单放在form里，当然，这是layui的源码决定的吧，在此记录。&lt;/p</summary>
+      
+    
+    
+    
+    
+    <category term="随笔" scheme="https://akayi07.github.io/tags/%E9%9A%8F%E7%AC%94/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>事件循环</title>
+    <link href="https://akayi07.github.io/2020/07/08/2020-07-08-%E4%BA%8B%E4%BB%B6%E5%BE%AA%E7%8E%AF/"/>
+    <id>https://akayi07.github.io/2020/07/08/2020-07-08-%E4%BA%8B%E4%BB%B6%E5%BE%AA%E7%8E%AF/</id>
+    <published>2020-07-07T16:00:00.000Z</published>
+    <updated>2020-07-07T16:00:00.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>这两天有个项目要加个跳转到其他部分的箭头，一直不成功，发现死循环了。现在找到原因了，事件里绑定事件，反复调用导致重复绑定，最好分开绑定，不要嵌套在事件里。也可以$(document).off,unbind,off等先解绑再绑定来解决。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;这两天有个项目要加个跳转到其他部分的箭头，一直不成功，发现死循环了。现在找到原因了，事件里绑定事件，反复调用导致重复绑定，最好分开绑定，不要嵌套在事件里。也可以$(document).off,unbind,off等先解绑再绑定来解决。&lt;/p&gt;
+</summary>
+      
+    
+    
+    
+    
+    <category term="随笔" scheme="https://akayi07.github.io/tags/%E9%9A%8F%E7%AC%94/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>数据库的问题</title>
+    <link href="https://akayi07.github.io/2020/07/03/2020-07-03-%E6%95%B0%E6%8D%AE%E5%BA%93%E7%9A%84%E9%97%AE%E9%A2%98/"/>
+    <id>https://akayi07.github.io/2020/07/03/2020-07-03-%E6%95%B0%E6%8D%AE%E5%BA%93%E7%9A%84%E9%97%AE%E9%A2%98/</id>
+    <published>2020-07-02T16:00:00.000Z</published>
+    <updated>2020-07-02T16:00:00.000Z</updated>
+    
+    <content type="html"><![CDATA[<pre><code>今天碰到正式服务器和测试服务器一个有内容一个没内容，最后发现是数据库不一样，后端忘了同步修改数据库。</code></pre>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;pre&gt;&lt;code&gt;今天碰到正式服务器和测试服务器一个有内容一个没内容，最后发现是数据库不一样，后端忘了同步修改数据库。&lt;/code&gt;&lt;/pre&gt;
+</summary>
+      
+    
+    
+    
+    
+    <category term="随笔" scheme="https://akayi07.github.io/tags/%E9%9A%8F%E7%AC%94/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>新的Vue项目</title>
+    <link href="https://akayi07.github.io/2020/06/30/2020-06-30-%E6%96%B0%E7%9A%84Vue%E9%A1%B9%E7%9B%AE/"/>
+    <id>https://akayi07.github.io/2020/06/30/2020-06-30-%E6%96%B0%E7%9A%84Vue%E9%A1%B9%E7%9B%AE/</id>
+    <published>2020-06-29T16:00:00.000Z</published>
+    <updated>2020-06-29T16:00:00.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>  终于要做第二个公司项目了，这次我想要用vue，不用layui了，这次没有人限制我使用vue。我用vue做过的项目只有模仿网易云音乐的个人项目，我也是用这个项目找到现在这份工作入行的。</p><p>  由于太久没有写vue项目，一直在找手把手的教程复习一下，没找到，所以我决定摸索着边做边复习。</p><p>  Element-ui使用的是@vue/cli3,现在都是@vue/cli4了，所以我查了一下怎么迁移。 遇到这个问题Plugin/Preset files are not allowed to export objects, only functions，这是babel版本不兼容的问题，我用babel-preset-env代替babel-preset-es2015解决了这个问题。</p><p>  对了，我这几天把markdown基本用法学完了，看了一些博客帖子和作者文档，可惜markdown没有标准化，github flavored mardown有点长，也不是标准的markdown，我有时间再学吧。我把基本语法学会了，现在就是用这个写这篇文档，之前不懂用html写文档。我准备学习一下hexo，vim和emacs。这个博客是我在2017年用jekyll写的，用的别人的模板，当时什么都不懂，直接看的网上教程加上自己理解，我听说hexo速度快，使用人数也很多，我想自己建立一个新博客，把文章迁移到新博客上。</p><p>  ===<br>  以下更新于2020/7/1</p><p>  我碰到一个问题，侧边栏不能与屏幕自适应，我用100vh解决这个问题。</p><p>  ===<br>  以下更新于2020/7/2</p><p>  div并排放一起，上部无法对齐，原因是每个浏览器会有自己的一种定义布局的方式。有些默认上对齐，有些默认下对齐。我设置style=”vertical-align:top;”解决这个问题。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;  终于要做第二个公司项目了，这次我想要用vue，不用layui了，这次没有人限制我使用vue。我用vue做过的项目只有模仿网易云音乐的个人项目，我也是用这个项目找到现在这份工作入行的。&lt;/p&gt;
+&lt;p&gt;  由于太久没有写vue项目，一直在找手把手的教程复习一下，没找到，所以</summary>
+      
+    
+    
+    
+    
+    <category term="随笔" scheme="https://akayi07.github.io/tags/%E9%9A%8F%E7%AC%94/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>程序员的呐喊</title>
+    <link href="https://akayi07.github.io/2020/06/18/2020-06-18-%E7%A8%8B%E5%BA%8F%E5%91%98%E7%9A%84%E5%91%90%E5%96%8A/"/>
+    <id>https://akayi07.github.io/2020/06/18/2020-06-18-%E7%A8%8B%E5%BA%8F%E5%91%98%E7%9A%84%E5%91%90%E5%96%8A/</id>
+    <published>2020-06-17T16:00:00.000Z</published>
+    <updated>2020-06-17T16:00:00.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>这本书从6月10日看到6月18日，本来想在博客上发读书笔记，但是看书有感想感情一激动就在里面写了太多私事，就不发了。总之我的收获很大，要学的东西还有很多。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;这本书从6月10日看到6月18日，本来想在博客上发读书笔记，但是看书有感想感情一激动就在里面写了太多私事，就不发了。总之我的收获很大，要学的东西还有很多。&lt;/p&gt;
+</summary>
+      
+    
+    
+    
+    
+    <category term="随笔" scheme="https://akayi07.github.io/tags/%E9%9A%8F%E7%AC%94/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>一个&quot;BUG&quot;</title>
+    <link href="https://akayi07.github.io/2020/06/17/2020-06-17-%E4%B8%80%E4%B8%AA%E2%80%9CBUG%E2%80%9D/"/>
+    <id>https://akayi07.github.io/2020/06/17/2020-06-17-%E4%B8%80%E4%B8%AA%E2%80%9CBUG%E2%80%9D/</id>
+    <published>2020-06-16T16:00:00.000Z</published>
+    <updated>2020-06-16T16:00:00.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>昨天遇到一个问题，弄了两天，请教了写这段代码的大佬，我们两个都弄不出来，最后发现是后端的问题，我们弄再久也弄不出来。幸亏有个后端同事和我关系好，事情忙完了替我一点点看过去，最后发现是后端没考虑测试的时候手机号是假的，不能发短信就把错误发送给前端，前端报错跳转了。负责这个接口的前端不知道错在哪里，我也要会后端才行，可以自己排查一下。<br>最后解决办法是后端加判断，如果手机号发送不出去就不把错误发送给前端</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;昨天遇到一个问题，弄了两天，请教了写这段代码的大佬，我们两个都弄不出来，最后发现是后端的问题，我们弄再久也弄不出来。幸亏有个后端同事和我关系好，事情忙完了替我一点点看过去，最后发现是后端没考虑测试的时候手机号是假的，不能发短信就把错误发送给前端，前端报错跳转了。负责这个接口</summary>
+      
+    
+    
+    
+    
+    <category term="随笔" scheme="https://akayi07.github.io/tags/%E9%9A%8F%E7%AC%94/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>项目</title>
+    <link href="https://akayi07.github.io/2020/06/10/2020-06-10-%E9%A1%B9%E7%9B%AE/"/>
+    <id>https://akayi07.github.io/2020/06/10/2020-06-10-%E9%A1%B9%E7%9B%AE/</id>
+    <published>2020-06-09T16:00:00.000Z</published>
+    <updated>2020-06-09T16:00:00.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>想做个项目，需要vuex和node，结果扩展出一堆东西，记个随笔。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;想做个项目，需要vuex和node，结果扩展出一堆东西，记个随笔。&lt;/p&gt;
+</summary>
+      
+    
+    
+    
+    
+    <category term="随笔" scheme="https://akayi07.github.io/tags/%E9%9A%8F%E7%AC%94/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>百度速度慢</title>
+    <link href="https://akayi07.github.io/2020/05/30/2020-05-30-%E7%99%BE%E5%BA%A6%E9%80%9F%E5%BA%A6%E6%85%A2/"/>
+    <id>https://akayi07.github.io/2020/05/30/2020-05-30-%E7%99%BE%E5%BA%A6%E9%80%9F%E5%BA%A6%E6%85%A2/</id>
+    <published>2020-05-29T16:00:00.000Z</published>
+    <updated>2020-05-29T16:00:00.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>最近一周上百度贴吧都很慢，刷新不出，公司电脑就没事，以为是移动的问题，今天周六没事才想起来之前改了dns，记录一下。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;最近一周上百度贴吧都很慢，刷新不出，公司电脑就没事，以为是移动的问题，今天周六没事才想起来之前改了dns，记录一下。&lt;/p&gt;
+</summary>
+      
+    
+    
+    
+    
+    <category term="随笔" scheme="https://akayi07.github.io/tags/%E9%9A%8F%E7%AC%94/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>How Does Browser Worker</title>
+    <link href="https://akayi07.github.io/2020/05/26/2020-05-26-how%20does%20broswer%20worker/"/>
+    <id>https://akayi07.github.io/2020/05/26/2020-05-26-how%20does%20broswer%20worker/</id>
+    <published>2020-05-25T16:00:00.000Z</published>
+    <updated>2020-05-25T16:00:00.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>今天看了这篇文章，虽然是09年的文章，但是因为自学过前端，很多东西都是熟悉的，更加了解浏览器的工作原理了。<br><br>之前自学把vue项目部署到github过，昨天了解到最近在做的公司项目是用ftp传到服务器的，前后端分离开发最后放一起了，我要学一下怎么部署。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;今天看了这篇文章，虽然是09年的文章，但是因为自学过前端，很多东西都是熟悉的，更加了解浏览器的工作原理了。&lt;br&gt;&lt;br&gt;之前自学把vue项目部署到github过，昨天了解到最近在做的公司项目是用ftp传到服务器的，前后端分离开发最后放一起了，我要学一下怎么部署。&lt;/p&gt;
+</summary>
+      
+    
+    
+    
+    
+    <category term="随笔" scheme="https://akayi07.github.io/tags/%E9%9A%8F%E7%AC%94/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Onjava8笔记</title>
+    <link href="https://akayi07.github.io/2020/05/21/2020-5-21-onjava8%E7%AC%94%E8%AE%B0/"/>
+    <id>https://akayi07.github.io/2020/05/21/2020-5-21-onjava8%E7%AC%94%E8%AE%B0/</id>
+    <published>2020-05-20T16:00:00.000Z</published>
+    <updated>2020-05-20T16:00:00.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>1.Java 确定了每种基本类型的内存占用大小。 这些大小不会像其他一些语言那样随着机器环境的变化而变化。这种不变性也是 Java 更具可移植性的一个原因。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;1.Java 确定了每种基本类型的内存占用大小。 这些大小不会像其他一些语言那样随着机器环境的变化而变化。这种不变性也是 Java 更具可移植性的一个原因。&lt;/p&gt;
+</summary>
+      
+    
+    
+    
+    
+    <category term="随笔" scheme="https://akayi07.github.io/tags/%E9%9A%8F%E7%AC%94/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Java</title>
+    <link href="https://akayi07.github.io/2020/05/20/2020-05-20-java/"/>
+    <id>https://akayi07.github.io/2020/05/20/2020-05-20-java/</id>
+    <published>2020-05-19T16:00:00.000Z</published>
+    <updated>2020-05-19T16:00:00.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>去年还是前年学过java，只学到javase就停下来了，前端需要会后端，也可以考虑全栈或者后端方向，我想学java，今天开始学习onjava8,java5太老了，就用这个代替java编程思想。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;去年还是前年学过java，只学到javase就停下来了，前端需要会后端，也可以考虑全栈或者后端方向，我想学java，今天开始学习onjava8,java5太老了，就用这个代替java编程思想。&lt;/p&gt;
+</summary>
+      
+    
+    
+    
+    
+    <category term="随笔" scheme="https://akayi07.github.io/tags/%E9%9A%8F%E7%AC%94/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>一点教训</title>
+    <link href="https://akayi07.github.io/2020/04/25/2020-04-25-%E4%B8%80%E7%82%B9%E6%95%99%E8%AE%AD/"/>
+    <id>https://akayi07.github.io/2020/04/25/2020-04-25-%E4%B8%80%E7%82%B9%E6%95%99%E8%AE%AD/</id>
+    <published>2020-04-24T16:00:00.000Z</published>
+    <updated>2020-04-24T16:00:00.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>公司请了外援，结果一直解决不了跨域，最后用nginx解决了，结果还是不行，最后发现要改代码，路径最后加api，总结就是前端要会点后端，后端要会点前端，全栈最好了，什么都知道，因为大家都不懂，所以交流有障碍，这些问题拖了快2周左右，如果我要坚持前端路线的话全栈是可以走的，<br>这个问题解决其实是试出来的，还是要多学点技术，前端后端走全栈路线。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;公司请了外援，结果一直解决不了跨域，最后用nginx解决了，结果还是不行，最后发现要改代码，路径最后加api，总结就是前端要会点后端，后端要会点前端，全栈最好了，什么都知道，因为大家都不懂，所以交流有障碍，这些问题拖了快2周左右，如果我要坚持前端路线的话全栈是可以走的，&lt;b</summary>
+      
+    
+    
+    
+    
+    <category term="随笔" scheme="https://akayi07.github.io/tags/%E9%9A%8F%E7%AC%94/"/>
+    
+  </entry>
+  
+</feed>
