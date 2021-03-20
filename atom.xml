@@ -6,7 +6,7 @@
   <link href="https://akayi07.github.io/atom.xml" rel="self"/>
   
   <link href="https://akayi07.github.io/"/>
-  <updated>2021-03-16T16:00:00.000Z</updated>
+  <updated>2021-03-18T16:00:00.000Z</updated>
   <id>https://akayi07.github.io/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>辞职了</title>
+    <link href="https://akayi07.github.io/2021/03/19/2021-03-19-%E9%9D%A2%E8%AF%95%E5%87%86%E5%A4%87/"/>
+    <id>https://akayi07.github.io/2021/03/19/2021-03-19-%E9%9D%A2%E8%AF%95%E5%87%86%E5%A4%87/</id>
+    <published>2021-03-18T16:00:00.000Z</published>
+    <updated>2021-03-18T16:00:00.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>17号提了辞职，也没人挽留，看来网上这种老板挽留的情形不会发生在我身上，那么低的工资，完全就是实习生的工资，比应聘时网上写的少了一半，也没涨过，放假前公司活动老板也说台州没人才准备去外地开分公司。看来我确实不怎么样，可能在公司里前端水平还行，在外面不行，毕竟不是科班的，也没有高手带，完全靠自己。科目三一直过不了，想先放着了，时不我待，我想去外面的公司看看，做更多有挑战性的项目，精进自己的技术，其他事情暂时放下，暂时就不准备待在家乡这边了。<br>昨天在boss直聘上随便点开消息，结果直接自动发送，对方的高级前端让我发简历，给了gitmebug的链接，我简历写了两天了，还在思考怎么描述工作的项目，一共7个，但是其实有3个只是前期是我参与的，后面让外包或者新同事做了，还有就是同事辞职了，只有我自学过vue，让我改bug的，我就不写进简历吧。<br>===<br>2021/3/19更新<br>今晚还是写简历，7个项目精简成4个，还是一直在想怎么写，看网上什么star法则，而且公司项目，我不知道我截图涂掉数据能不能作为面试使用，有些项目是客户内网的，有些完成了但是还在修改bug，可能不能在外网看到，客户内部已经在用了，我百度了一下，好像都有新闻报道，不过我也不知道线上地址，可能都不好展示。我决定今晚写好，先试试，反正要到4月17才能拿到离职证明走人，我还可以修改，一直拖着不行。<br>这里记录一下boss直聘上的面试，目前人在台州，想去上海，还要1个月不方便，看能不能网上电话视频什么方式面试。昨晚的题目还记得V-show v-if区别 5升水6升水变3升 数组从小到大排序（除了sort）Promise h5,css3,es6 vue，就两道答不出来，那个水的和最后排序，我要多复习基础知识，算法题确实没关注过，百度了下是家好公司，我得注意学习积累。下午有hr说bootstrap+jquery，我会vue不行，我说只是ui框架不难，没有回复，可能我确实相当然了，我对自己的学习能力有自信的，其实vue自学实际也没学多久，可能不会超过1个月，但是隔了半年公司vue项目还是顺利做下去了，layui框架是刚入行半天官网文档直接做下去了目前也有两个项目。bootstrap可能有点老，如果公司需要我可以学，目前找工作还是多学习巩固vue和其他基础知识。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;17号提了辞职，也没人挽留，看来网上这种老板挽留的情形不会发生在我身上，那么低的工资，完全就是实习生的工资，比应聘时网上写的少了一半，也没涨过，放假前公司活动老板也说台州没人才准备去外地开分公司。看来我确实不怎么样，可能在公司里前端水平还行，在外面不行，毕竟不是科班的，也没</summary>
+      
+    
+    
+    
+    
+    <category term="随笔" scheme="https://akayi07.github.io/tags/%E9%9A%8F%E7%AC%94/"/>
+    
+  </entry>
   
   <entry>
     <title>学习</title>
@@ -35,6 +57,26 @@
     
     
     <category term="随笔" scheme="https://akayi07.github.io/tags/%E9%9A%8F%E7%AC%94/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>随便写写</title>
+    <link href="https://akayi07.github.io/2021/03/09/2021-03-09-%E6%9D%82%E5%AD%A6/"/>
+    <id>https://akayi07.github.io/2021/03/09/2021-03-09-%E6%9D%82%E5%AD%A6/</id>
+    <published>2021-03-08T16:00:00.000Z</published>
+    <updated>2021-03-08T16:00:00.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>我入行快1年了,一直做的是PC端的网页项目，没做过移动端的，公司这类项目不多也有其他经验更丰富的同事做，其实那些同事毕业时间和我一样或者在我之后，不少也不是这个专业的，不过他们入行早，我毕业后考研计算机失败又脱产考了一次，然后又失败了。<br>当时也对自己没自信，没应聘过计算机方面工作，等毕业2年了才想转行，复习了几个月前端又碰上疫情，在老家这边市区找了家小公司，就是现在这家，工资实在是低，就没涨过，其实我完全靠的就是找工作前几个月学的vue和h5知识，我感觉能胜任，目前公司项目都做了7个了。当时前端贴吧让我做几个月走人，我想着积累经验就没走，转眼1年了，我前几天看到别人在贴吧里说培训完杭州8000被hr放鸽子了，然后吧友回复说我第一年就要1w多，好羡慕啊。我是实话实说自己是自学的，当时疫情而且家里催得急，就答应了，所以工资很低，比面试时候网站标的还少1000，也没涨过，我发现科班毕业的同事还要请教我，所以我想至少在前端这一块我是能站稳脚跟的，希望我能长久走下去。<br>工资过低，而且我也想去北上广深等一线发展，所以近期准备跳槽，boss直聘猎聘等app一直有hr询问，我想还是可以跳槽的，我要多学点东西，在这里随意记录。<br>202103009:<br>1.移动应用分为三种：原生应用(native app)， 网页应用(web app，或HTML5 app)，以及混合模式移动应用(hybrid app)。<br>2.</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;我入行快1年了,一直做的是PC端的网页项目，没做过移动端的，公司这类项目不多也有其他经验更丰富的同事做，其实那些同事毕业时间和我一样或者在我之后，不少也不是这个专业的，不过他们入行早，我毕业后考研计算机失败又脱产考了一次，然后又失败了。&lt;br&gt;当时也对自己没自信，没应聘过计</summary>
+      
+    
+    
+    
     
   </entry>
   
@@ -81,39 +123,16 @@
   </entry>
   
   <entry>
-    <title>Hello World</title>
-    <link href="https://akayi07.github.io/2021/01/22/hello-world/"/>
-    <id>https://akayi07.github.io/2021/01/22/hello-world/</id>
-    <published>2021-01-22T02:29:26.462Z</published>
-    <updated>2021-01-22T02:29:26.462Z</updated>
+    <title>用Hexo重新创建博客的过程与心得</title>
+    <link href="https://akayi07.github.io/2021/01/25/%E7%94%A8hexo%E9%87%8D%E6%96%B0%E5%88%9B%E5%BB%BA%E5%8D%9A%E5%AE%A2%E7%9A%84%E8%BF%87%E7%A8%8B%E4%B8%8E%E5%BF%83%E5%BE%97/"/>
+    <id>https://akayi07.github.io/2021/01/25/%E7%94%A8hexo%E9%87%8D%E6%96%B0%E5%88%9B%E5%BB%BA%E5%8D%9A%E5%AE%A2%E7%9A%84%E8%BF%87%E7%A8%8B%E4%B8%8E%E5%BF%83%E5%BE%97/</id>
+    <published>2021-01-24T16:00:00.000Z</published>
+    <updated>2021-01-24T16:00:00.000Z</updated>
     
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for</summary>
-      
+    <content type="html"><![CDATA[<p>这个博客之前是用jekyll写的，那是16年或17年左右，当时决定跨专业考研计算机，具体也忘了，反正在github上写了博客，不太懂就直接用的fork的网友的模板。</p><p>最近用hexo重新写了，这回是自己一个个设置过去的，入行到月底差不多10个月了，而且其实前端我在17年-18年左右就自学过了，只不过没有自信没有去面试这行的工作，我看了下设置的文件，很多都能看懂，还学到了不少，记录一下。</p><p>我设置了点击心形，这个是用requestAnimationFrame实现的，比setTimeout/setInterval要好，不会等浏览器UI线程队列的任务完成后再执行，节省系统资源。</p>]]></content>
     
     
-    
-    
-  </entry>
-  
-  <entry>
-    <title>读书记录</title>
-    <link href="https://akayi07.github.io/2020/10/23/2020-10-23-%E8%AF%BB%E4%B9%A6%E8%AE%B0%E5%BD%95/"/>
-    <id>https://akayi07.github.io/2020/10/23/2020-10-23-%E8%AF%BB%E4%B9%A6%E8%AE%B0%E5%BD%95/</id>
-    <published>2020-10-22T16:00:00.000Z</published>
-    <updated>2020-10-22T16:00:00.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>1.（20201024读完）《超新星纪元》，刘慈欣 <br><br>2.(20201022前读完)《半小时漫画经济学1-4》 <br><br>3.(20201024开始——)《GEB》，侯世达 <br><br>4.（20201028——）《剑桥中华民国史（1912年——1914年）》 <br><br>5.（20201027——）《剑桥中国史全集》 <br><br>6.（约20201026——）《沙丘》六部曲 <br><br>6.（20201030——20201109）《中国史纲》<br></p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;1.（20201024读完）《超新星纪元》，刘慈欣 &lt;br&gt;&lt;br&gt;2.(20201022前读完)《半小时漫画经济学1-4》 &lt;br&gt;&lt;br&gt;3.(20201024开始——)《GEB》，侯世达 &lt;br&gt;&lt;br&gt;4.（20201028——）《剑桥中华民国史（1912年——19</summary>
-      
+    <summary type="html">这个博客之前是用jekyll写的，现在改成了hexo</summary>
     
     
     
@@ -174,12 +193,12 @@
     <published>2020-09-28T16:00:00.000Z</published>
     <updated>2020-09-28T16:00:00.000Z</updated>
     
-    <content type="html"><![CDATA[<p>layui项目，本来是我写的，后面其他项目急交给同事了，这两天同事被辞了还是我做，ie9的兼容性难搞啊，不过我通过分析layui源码都解决了，还剩一个问题，上传文件，返回是json的话ie9会显示保存/下载打断获取返回值，正好这两天负责的<br>后端出差，我研究了两天后端代码，发现是webapi问题，需要设置contenttype,后端不懂我更不懂了，我就自学过javase，看是能看懂，最后我想了个办法，后端回来说就这样办，用另一个接口去返回url。</p>]]></content>
+    <content type="html"><![CDATA[<p>layui项目，本来是我写的，后面其他项目急交给同事了，这两天同事被辞了还是我做，ie9的兼容性难搞啊，不过我通过分析layui源码都解决了，还剩一个问题，上传文件，返回是json的话ie9会显示保存/下载打断获取返回值，正好这两天负责的后端出差，我研究了两天后端代码，发现是webapi问题，需要设置contenttype,后端不懂我更不懂了，我就自学过javase，看是能看懂，最后我想了个办法，后端回来说就这样办，用另一个接口去返回url。</p>]]></content>
     
     
       
       
-    <summary type="html">&lt;p&gt;layui项目，本来是我写的，后面其他项目急交给同事了，这两天同事被辞了还是我做，ie9的兼容性难搞啊，不过我通过分析layui源码都解决了，还剩一个问题，上传文件，返回是json的话ie9会显示保存/下载打断获取返回值，正好这两天负责的&lt;br&gt;后端出差，我研究了两天后端代</summary>
+    <summary type="html">&lt;p&gt;layui项目，本来是我写的，后面其他项目急交给同事了，这两天同事被辞了还是我做，ie9的兼容性难搞啊，不过我通过分析layui源码都解决了，还剩一个问题，上传文件，返回是json的话ie9会显示保存/下载打断获取返回值，正好这两天负责的后端出差，我研究了两天后端代码，发现</summary>
       
     
     
@@ -246,7 +265,8 @@
     
       
       
-    <summary type="html">&lt;pre&gt;&lt;code&gt;今天碰到正式服务器和测试服务器一个有内容一个没内容，最后发现是数据库不一样，后端忘了同步修改数据库。&lt;/code&gt;&lt;/pre&gt;
+    <summary type="html">&lt;pre&gt;&lt;code&gt;今天碰到正式服务器和测试服务器一个有内容一个没内容，最后发现是数据库不一样，后端忘了同步修改数据库。
+&lt;/code&gt;&lt;/pre&gt;
 </summary>
       
     
@@ -431,28 +451,6 @@
       
     <summary type="html">&lt;p&gt;去年还是前年学过java，只学到javase就停下来了，前端需要会后端，也可以考虑全栈或者后端方向，我想学java，今天开始学习onjava8,java5太老了，就用这个代替java编程思想。&lt;/p&gt;
 </summary>
-      
-    
-    
-    
-    
-    <category term="随笔" scheme="https://akayi07.github.io/tags/%E9%9A%8F%E7%AC%94/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>一点教训</title>
-    <link href="https://akayi07.github.io/2020/04/25/2020-04-25-%E4%B8%80%E7%82%B9%E6%95%99%E8%AE%AD/"/>
-    <id>https://akayi07.github.io/2020/04/25/2020-04-25-%E4%B8%80%E7%82%B9%E6%95%99%E8%AE%AD/</id>
-    <published>2020-04-24T16:00:00.000Z</published>
-    <updated>2020-04-24T16:00:00.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>公司请了外援，结果一直解决不了跨域，最后用nginx解决了，结果还是不行，最后发现要改代码，路径最后加api，总结就是前端要会点后端，后端要会点前端，全栈最好了，什么都知道，因为大家都不懂，所以交流有障碍，这些问题拖了快2周左右，如果我要坚持前端路线的话全栈是可以走的，<br>这个问题解决其实是试出来的，还是要多学点技术，前端后端走全栈路线。</p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;公司请了外援，结果一直解决不了跨域，最后用nginx解决了，结果还是不行，最后发现要改代码，路径最后加api，总结就是前端要会点后端，后端要会点前端，全栈最好了，什么都知道，因为大家都不懂，所以交流有障碍，这些问题拖了快2周左右，如果我要坚持前端路线的话全栈是可以走的，&lt;b</summary>
       
     
     

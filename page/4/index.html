@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
 <meta name="theme-color" content="#222">
-<meta name="generator" content="Hexo 5.3.0">
+<meta name="generator" content="Hexo 5.4.0">
   <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/images/maomao32x32.ico">
   <link rel="icon" type="image/png" sizes="16x16" href="/images/maomao16x16.ico">
@@ -177,6 +177,83 @@
 
           <div class="content index posts-expand">
             
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://akayi07.github.io/2020/01/13/2020-01-13.%E7%BB%9D%E5%AF%B9%E5%AE%9A%E4%BD%8D%E7%90%86%E8%A7%A3/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.jpg">
+      <meta itemprop="name" content="卓利苗(Zhuo Limiao)">
+      <meta itemprop="description" content="akayi's blog">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="akayi写字的地方">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2020/01/13/2020-01-13.%E7%BB%9D%E5%AF%B9%E5%AE%9A%E4%BD%8D%E7%90%86%E8%A7%A3/" class="post-title-link" itemprop="url">绝对定位的理解</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              <time title="创建时间：2020-01-13 00:00:00" itemprop="dateCreated datePublished" datetime="2020-01-13T00:00:00+08:00">2020-01-13</time>
+            </span>
+
+          <br>
+            <span class="post-meta-item" title="本文字数">
+              <span class="post-meta-item-icon">
+                <i class="far fa-file-word"></i>
+              </span>
+                <span class="post-meta-item-text">本文字数：</span>
+              <span>533</span>
+            </span>
+            <span class="post-meta-item" title="阅读时长">
+              <span class="post-meta-item-icon">
+                <i class="far fa-clock"></i>
+              </span>
+                <span class="post-meta-item-text">阅读时长 &asymp;</span>
+              <span>1 分钟</span>
+            </span>
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <p>1.绝对定位不区分块级/行内/行内块级，统一视为块级元素，可设置宽高，宽度默认为内容的宽度</p>
+<p>2.绝对定位默认情况下，元素位置在正常文档流中的位置，但脱离了文档流，不占据文档流的位置</p>
+<p>3.元素如果存在宽度left和right只能设置一个，都设置的话只有left起作用，元素如果存在高度同理top和bottom也只有一个起作用，都设置只有top起作用，但是如果没有显示的设置width和height，则可以通过left、right、top以及bottom来计算出width和height</p>
+<p>4.默认情况下，无论绝对定位元素有没有祖先元素，都以body为参考点，此时是以网页首屏（body很大的话可以理解为第一页，不论水平方向还是垂直方向）尺寸为参考点</p>
+<p>5.如果一个绝对定位元素有祖先元素，且祖先元素也是定位流（相对定位、绝对定位、固定定位），这里静态定位（静态定位其实就是元素的默认定位方式即不设置postion属性时）除外，那么该元素的会以这个祖先元素作为参考点，如果存在多个祖先元素都是定位流情况，按照就近原则，最近的祖先元素为参考点</p>
+<p>6.绝对定位元素会忽略祖先元素的padding属性</p>
+<p>7.绝对定位元素水平居中，只要设置left为50%，margin-left为负宽度的一半即可</p>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
       
   
   
@@ -850,78 +927,6 @@ update on january 12th, 2020
   
   
 
-      
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="https://akayi07.github.io/2018/03/26/2018-3-26-flask%E7%BB%A7%E7%BB%AD%E5%AD%A6%E4%B9%A0/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.jpg">
-      <meta itemprop="name" content="卓利苗(Zhuo Limiao)">
-      <meta itemprop="description" content="akayi's blog">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="akayi写字的地方">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/2018/03/26/2018-3-26-flask%E7%BB%A7%E7%BB%AD%E5%AD%A6%E4%B9%A0/" class="post-title-link" itemprop="url">Flask继续学习</a>
-        </h2>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">发表于</span>
-
-              <time title="创建时间：2018-03-26 00:00:00" itemprop="dateCreated datePublished" datetime="2018-03-26T00:00:00+08:00">2018-03-26</time>
-            </span>
-
-          <br>
-            <span class="post-meta-item" title="本文字数">
-              <span class="post-meta-item-icon">
-                <i class="far fa-file-word"></i>
-              </span>
-                <span class="post-meta-item-text">本文字数：</span>
-              <span>116</span>
-            </span>
-            <span class="post-meta-item" title="阅读时长">
-              <span class="post-meta-item-icon">
-                <i class="far fa-clock"></i>
-              </span>
-                <span class="post-meta-item-text">阅读时长 &asymp;</span>
-              <span>1 分钟</span>
-            </span>
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <p>之前flask web开发看了1/3停下来去学了html，回来再看确实明白许多，继续学。</p>
-<p>import的区别：<br>a.import 导入模块<br>b.from import 导入模块中的类、函数或者变量<br>c.from import * 导入模块中的所有公开成员</p>
-
-      
-    </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
 
   
   <nav class="pagination">
@@ -993,7 +998,7 @@ update on january 12th, 2020
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">43</span>
+          <span class="site-state-item-count">44</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
@@ -1050,19 +1055,19 @@ update on january 12th, 2020
     <span class="post-meta-item-icon">
       <i class="fa fa-chart-area"></i>
     </span>
-    <span title="站点总字数">12k</span>
+    <span title="站点总字数">13k</span>
     <span class="post-meta-divider">|</span>
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
-    <span title="站点阅读时长">11 分钟</span>
+    <span title="站点阅读时长">12 分钟</span>
 </div>
   <div class="powered-by">由 <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Gemini</a> 强力驱动
   </div><script color="0,0,255" opacity="0.5" zIndex="-1" count="99" src="https://cdn.jsdelivr.net/npm/canvas-nest.js@1/dist/canvas-nest.js"></script>
 
 <div class="theme-info">
   <div class="powered-by"></div>
-  <span class="post-count">博客全站共7.3k字</span>
+  <span class="post-count">博客全站共8.6k字</span>
 </div>
 
         
