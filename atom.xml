@@ -3,11 +3,11 @@
   <title>akayi写字的地方</title>
   
   <subtitle>AKAYI&#39;S GARDEN</subtitle>
-  <link href="http://ftp6448819.host123.sanfengyun.cn/akayi/atom.xml" rel="self"/>
+  <link href="https://akayi07.github.io/atom.xml" rel="self"/>
   
-  <link href="http://ftp6448819.host123.sanfengyun.cn/akayi/"/>
-  <updated>2021-03-18T16:00:00.000Z</updated>
-  <id>http://ftp6448819.host123.sanfengyun.cn/akayi/</id>
+  <link href="https://akayi07.github.io/"/>
+  <updated>2021-04-11T16:00:00.000Z</updated>
+  <id>https://akayi07.github.io/</id>
   
   <author>
     <name>卓利苗(Zhuo Limiao)</name>
@@ -17,9 +17,31 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>轮播新思路</title>
+    <link href="https://akayi07.github.io/2021/04/12/20210412/"/>
+    <id>https://akayi07.github.io/2021/04/12/20210412/</id>
+    <published>2021-04-11T16:00:00.000Z</published>
+    <updated>2021-04-11T16:00:00.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>因为github最近不稳，所以最近博客都写自己电脑上了，现在传一个新的，之后写完再传之前的。<br>项目有个大屏，要求把我做的7个大屏用3d相册形式放一个页面，项目经理找了html5的源码，但是不好放在vue里，所以我自己重写了，我用transform和转换视角做出了效果，有个问题，要求点击左右箭头图片看起来是轮播的，我本来思路都是v-on:class和v-if,v-show,我突然想到可以用数组，imgLists.slice(1).concat(imgLists.slice(0, 1))类似这样不就可以切换图片顺序，配合nth-child就好了，在这里记录一下。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;因为github最近不稳，所以最近博客都写自己电脑上了，现在传一个新的，之后写完再传之前的。&lt;br&gt;项目有个大屏，要求把我做的7个大屏用3d相册形式放一个页面，项目经理找了html5的源码，但是不好放在vue里，所以我自己重写了，我用transform和转换视角做出了效果，</summary>
+      
+    
+    
+    
+    
+    <category term="随笔" scheme="https://akayi07.github.io/tags/%E9%9A%8F%E7%AC%94/"/>
+    
+  </entry>
+  
+  <entry>
     <title>辞职了</title>
-    <link href="http://ftp6448819.host123.sanfengyun.cn/akayi/2021/03/19/20210319/"/>
-    <id>http://ftp6448819.host123.sanfengyun.cn/akayi/2021/03/19/20210319/</id>
+    <link href="https://akayi07.github.io/2021/03/19/20210319/"/>
+    <id>https://akayi07.github.io/2021/03/19/20210319/</id>
     <published>2021-03-18T16:00:00.000Z</published>
     <updated>2021-03-18T16:00:00.000Z</updated>
     
@@ -34,14 +56,14 @@
     
     
     
-    <category term="随笔" scheme="http://ftp6448819.host123.sanfengyun.cn/akayi/tags/%E9%9A%8F%E7%AC%94/"/>
+    <category term="随笔" scheme="https://akayi07.github.io/tags/%E9%9A%8F%E7%AC%94/"/>
     
   </entry>
   
   <entry>
     <title>学习</title>
-    <link href="http://ftp6448819.host123.sanfengyun.cn/akayi/2021/03/17/20210303/"/>
-    <id>http://ftp6448819.host123.sanfengyun.cn/akayi/2021/03/17/20210303/</id>
+    <link href="https://akayi07.github.io/2021/03/17/20210303/"/>
+    <id>https://akayi07.github.io/2021/03/17/20210303/</id>
     <published>2021-03-16T16:00:00.000Z</published>
     <updated>2021-03-16T16:00:00.000Z</updated>
     
@@ -56,14 +78,14 @@
     
     
     
-    <category term="随笔" scheme="http://ftp6448819.host123.sanfengyun.cn/akayi/tags/%E9%9A%8F%E7%AC%94/"/>
+    <category term="随笔" scheme="https://akayi07.github.io/tags/%E9%9A%8F%E7%AC%94/"/>
     
   </entry>
   
   <entry>
     <title>随便写写</title>
-    <link href="http://ftp6448819.host123.sanfengyun.cn/akayi/2021/03/09/20210309/"/>
-    <id>http://ftp6448819.host123.sanfengyun.cn/akayi/2021/03/09/20210309/</id>
+    <link href="https://akayi07.github.io/2021/03/09/20210309/"/>
+    <id>https://akayi07.github.io/2021/03/09/20210309/</id>
     <published>2021-03-08T16:00:00.000Z</published>
     <updated>2021-03-08T16:00:00.000Z</updated>
     
@@ -82,8 +104,8 @@
   
   <entry>
     <title>Flash-Vue-Admin</title>
-    <link href="http://ftp6448819.host123.sanfengyun.cn/akayi/2021/02/04/20210204/"/>
-    <id>http://ftp6448819.host123.sanfengyun.cn/akayi/2021/02/04/20210204/</id>
+    <link href="https://akayi07.github.io/2021/02/04/20210204/"/>
+    <id>https://akayi07.github.io/2021/02/04/20210204/</id>
     <published>2021-02-03T16:00:00.000Z</published>
     <updated>2021-02-03T16:00:00.000Z</updated>
     
@@ -99,14 +121,14 @@
     
     
     
-    <category term="随笔" scheme="http://ftp6448819.host123.sanfengyun.cn/akayi/tags/%E9%9A%8F%E7%AC%94/"/>
+    <category term="随笔" scheme="https://akayi07.github.io/tags/%E9%9A%8F%E7%AC%94/"/>
     
   </entry>
   
   <entry>
     <title>用Hexo重新创建博客的过程与心得</title>
-    <link href="http://ftp6448819.host123.sanfengyun.cn/akayi/2021/01/25/20210125/"/>
-    <id>http://ftp6448819.host123.sanfengyun.cn/akayi/2021/01/25/20210125/</id>
+    <link href="https://akayi07.github.io/2021/01/25/20210125/"/>
+    <id>https://akayi07.github.io/2021/01/25/20210125/</id>
     <published>2021-01-24T16:00:00.000Z</published>
     <updated>2021-01-24T16:00:00.000Z</updated>
     
@@ -118,14 +140,14 @@
     
     
     
-    <category term="随笔" scheme="http://ftp6448819.host123.sanfengyun.cn/akayi/tags/%E9%9A%8F%E7%AC%94/"/>
+    <category term="随笔" scheme="https://akayi07.github.io/tags/%E9%9A%8F%E7%AC%94/"/>
     
   </entry>
   
   <entry>
     <title>用Hexo重新创建博客的过程与心得</title>
-    <link href="http://ftp6448819.host123.sanfengyun.cn/akayi/2021/01/25/2021125/"/>
-    <id>http://ftp6448819.host123.sanfengyun.cn/akayi/2021/01/25/2021125/</id>
+    <link href="https://akayi07.github.io/2021/01/25/2021125/"/>
+    <id>https://akayi07.github.io/2021/01/25/2021125/</id>
     <published>2021-01-24T16:00:00.000Z</published>
     <updated>2021-01-24T16:00:00.000Z</updated>
     
@@ -137,14 +159,14 @@
     
     
     
-    <category term="随笔" scheme="http://ftp6448819.host123.sanfengyun.cn/akayi/tags/%E9%9A%8F%E7%AC%94/"/>
+    <category term="随笔" scheme="https://akayi07.github.io/tags/%E9%9A%8F%E7%AC%94/"/>
     
   </entry>
   
   <entry>
     <title>点击事件</title>
-    <link href="http://ftp6448819.host123.sanfengyun.cn/akayi/2020/10/21/20201021/"/>
-    <id>http://ftp6448819.host123.sanfengyun.cn/akayi/2020/10/21/20201021/</id>
+    <link href="https://akayi07.github.io/2020/10/21/20201021/"/>
+    <id>https://akayi07.github.io/2020/10/21/20201021/</id>
     <published>2020-10-20T16:00:00.000Z</published>
     <updated>2020-10-20T16:00:00.000Z</updated>
     
@@ -159,14 +181,14 @@
     
     
     
-    <category term="随笔" scheme="http://ftp6448819.host123.sanfengyun.cn/akayi/tags/%E9%9A%8F%E7%AC%94/"/>
+    <category term="随笔" scheme="https://akayi07.github.io/tags/%E9%9A%8F%E7%AC%94/"/>
     
   </entry>
   
   <entry>
     <title>后台返回完整的HTML页面代码</title>
-    <link href="http://ftp6448819.host123.sanfengyun.cn/akayi/2020/10/19/20201019/"/>
-    <id>http://ftp6448819.host123.sanfengyun.cn/akayi/2020/10/19/20201019/</id>
+    <link href="https://akayi07.github.io/2020/10/19/20201019/"/>
+    <id>https://akayi07.github.io/2020/10/19/20201019/</id>
     <published>2020-10-18T16:00:00.000Z</published>
     <updated>2020-10-18T16:00:00.000Z</updated>
     
@@ -182,14 +204,14 @@
     
     
     
-    <category term="随笔" scheme="http://ftp6448819.host123.sanfengyun.cn/akayi/tags/%E9%9A%8F%E7%AC%94/"/>
+    <category term="随笔" scheme="https://akayi07.github.io/tags/%E9%9A%8F%E7%AC%94/"/>
     
   </entry>
   
   <entry>
     <title>Ie9兼容</title>
-    <link href="http://ftp6448819.host123.sanfengyun.cn/akayi/2020/09/29/20200929/"/>
-    <id>http://ftp6448819.host123.sanfengyun.cn/akayi/2020/09/29/20200929/</id>
+    <link href="https://akayi07.github.io/2020/09/29/20200929/"/>
+    <id>https://akayi07.github.io/2020/09/29/20200929/</id>
     <published>2020-09-28T16:00:00.000Z</published>
     <updated>2020-09-28T16:00:00.000Z</updated>
     
@@ -204,14 +226,14 @@
     
     
     
-    <category term="随笔" scheme="http://ftp6448819.host123.sanfengyun.cn/akayi/tags/%E9%9A%8F%E7%AC%94/"/>
+    <category term="随笔" scheme="https://akayi07.github.io/tags/%E9%9A%8F%E7%AC%94/"/>
     
   </entry>
   
   <entry>
     <title>Layui</title>
-    <link href="http://ftp6448819.host123.sanfengyun.cn/akayi/2020/08/19/20200819layui/"/>
-    <id>http://ftp6448819.host123.sanfengyun.cn/akayi/2020/08/19/20200819layui/</id>
+    <link href="https://akayi07.github.io/2020/08/19/20200819layui/"/>
+    <id>https://akayi07.github.io/2020/08/19/20200819layui/</id>
     <published>2020-08-18T16:00:00.000Z</published>
     <updated>2020-08-18T16:00:00.000Z</updated>
     
@@ -226,14 +248,14 @@
     
     
     
-    <category term="随笔" scheme="http://ftp6448819.host123.sanfengyun.cn/akayi/tags/%E9%9A%8F%E7%AC%94/"/>
+    <category term="随笔" scheme="https://akayi07.github.io/tags/%E9%9A%8F%E7%AC%94/"/>
     
   </entry>
   
   <entry>
     <title>事件循环</title>
-    <link href="http://ftp6448819.host123.sanfengyun.cn/akayi/2020/07/08/20200708/"/>
-    <id>http://ftp6448819.host123.sanfengyun.cn/akayi/2020/07/08/20200708/</id>
+    <link href="https://akayi07.github.io/2020/07/08/20200708/"/>
+    <id>https://akayi07.github.io/2020/07/08/20200708/</id>
     <published>2020-07-07T16:00:00.000Z</published>
     <updated>2020-07-07T16:00:00.000Z</updated>
     
@@ -249,14 +271,14 @@
     
     
     
-    <category term="随笔" scheme="http://ftp6448819.host123.sanfengyun.cn/akayi/tags/%E9%9A%8F%E7%AC%94/"/>
+    <category term="随笔" scheme="https://akayi07.github.io/tags/%E9%9A%8F%E7%AC%94/"/>
     
   </entry>
   
   <entry>
     <title>数据库的问题</title>
-    <link href="http://ftp6448819.host123.sanfengyun.cn/akayi/2020/07/03/20200703/"/>
-    <id>http://ftp6448819.host123.sanfengyun.cn/akayi/2020/07/03/20200703/</id>
+    <link href="https://akayi07.github.io/2020/07/03/20200703/"/>
+    <id>https://akayi07.github.io/2020/07/03/20200703/</id>
     <published>2020-07-02T16:00:00.000Z</published>
     <updated>2020-07-02T16:00:00.000Z</updated>
     
@@ -273,14 +295,14 @@
     
     
     
-    <category term="随笔" scheme="http://ftp6448819.host123.sanfengyun.cn/akayi/tags/%E9%9A%8F%E7%AC%94/"/>
+    <category term="随笔" scheme="https://akayi07.github.io/tags/%E9%9A%8F%E7%AC%94/"/>
     
   </entry>
   
   <entry>
     <title>新的Vue项目</title>
-    <link href="http://ftp6448819.host123.sanfengyun.cn/akayi/2020/06/30/20200630/"/>
-    <id>http://ftp6448819.host123.sanfengyun.cn/akayi/2020/06/30/20200630/</id>
+    <link href="https://akayi07.github.io/2020/06/30/20200630/"/>
+    <id>https://akayi07.github.io/2020/06/30/20200630/</id>
     <published>2020-06-29T16:00:00.000Z</published>
     <updated>2020-06-29T16:00:00.000Z</updated>
     
@@ -296,14 +318,14 @@
     
     
     
-    <category term="随笔" scheme="http://ftp6448819.host123.sanfengyun.cn/akayi/tags/%E9%9A%8F%E7%AC%94/"/>
+    <category term="随笔" scheme="https://akayi07.github.io/tags/%E9%9A%8F%E7%AC%94/"/>
     
   </entry>
   
   <entry>
     <title>程序员的呐喊</title>
-    <link href="http://ftp6448819.host123.sanfengyun.cn/akayi/2020/06/18/20200618/"/>
-    <id>http://ftp6448819.host123.sanfengyun.cn/akayi/2020/06/18/20200618/</id>
+    <link href="https://akayi07.github.io/2020/06/18/20200618/"/>
+    <id>https://akayi07.github.io/2020/06/18/20200618/</id>
     <published>2020-06-17T16:00:00.000Z</published>
     <updated>2020-06-17T16:00:00.000Z</updated>
     
@@ -319,14 +341,14 @@
     
     
     
-    <category term="随笔" scheme="http://ftp6448819.host123.sanfengyun.cn/akayi/tags/%E9%9A%8F%E7%AC%94/"/>
+    <category term="随笔" scheme="https://akayi07.github.io/tags/%E9%9A%8F%E7%AC%94/"/>
     
   </entry>
   
   <entry>
     <title>一个&quot;BUG&quot;</title>
-    <link href="http://ftp6448819.host123.sanfengyun.cn/akayi/2020/06/17/20200617/"/>
-    <id>http://ftp6448819.host123.sanfengyun.cn/akayi/2020/06/17/20200617/</id>
+    <link href="https://akayi07.github.io/2020/06/17/20200617/"/>
+    <id>https://akayi07.github.io/2020/06/17/20200617/</id>
     <published>2020-06-16T16:00:00.000Z</published>
     <updated>2020-06-16T16:00:00.000Z</updated>
     
@@ -341,14 +363,14 @@
     
     
     
-    <category term="随笔" scheme="http://ftp6448819.host123.sanfengyun.cn/akayi/tags/%E9%9A%8F%E7%AC%94/"/>
+    <category term="随笔" scheme="https://akayi07.github.io/tags/%E9%9A%8F%E7%AC%94/"/>
     
   </entry>
   
   <entry>
     <title>项目</title>
-    <link href="http://ftp6448819.host123.sanfengyun.cn/akayi/2020/06/10/20200610/"/>
-    <id>http://ftp6448819.host123.sanfengyun.cn/akayi/2020/06/10/20200610/</id>
+    <link href="https://akayi07.github.io/2020/06/10/20200610/"/>
+    <id>https://akayi07.github.io/2020/06/10/20200610/</id>
     <published>2020-06-09T16:00:00.000Z</published>
     <updated>2020-06-09T16:00:00.000Z</updated>
     
@@ -364,14 +386,14 @@
     
     
     
-    <category term="随笔" scheme="http://ftp6448819.host123.sanfengyun.cn/akayi/tags/%E9%9A%8F%E7%AC%94/"/>
+    <category term="随笔" scheme="https://akayi07.github.io/tags/%E9%9A%8F%E7%AC%94/"/>
     
   </entry>
   
   <entry>
     <title>百度速度慢</title>
-    <link href="http://ftp6448819.host123.sanfengyun.cn/akayi/2020/05/30/20200530/"/>
-    <id>http://ftp6448819.host123.sanfengyun.cn/akayi/2020/05/30/20200530/</id>
+    <link href="https://akayi07.github.io/2020/05/30/20200530/"/>
+    <id>https://akayi07.github.io/2020/05/30/20200530/</id>
     <published>2020-05-29T16:00:00.000Z</published>
     <updated>2020-05-29T16:00:00.000Z</updated>
     
@@ -387,14 +409,14 @@
     
     
     
-    <category term="随笔" scheme="http://ftp6448819.host123.sanfengyun.cn/akayi/tags/%E9%9A%8F%E7%AC%94/"/>
+    <category term="随笔" scheme="https://akayi07.github.io/tags/%E9%9A%8F%E7%AC%94/"/>
     
   </entry>
   
   <entry>
     <title>How Does Browser Worker</title>
-    <link href="http://ftp6448819.host123.sanfengyun.cn/akayi/2020/05/26/20200526/"/>
-    <id>http://ftp6448819.host123.sanfengyun.cn/akayi/2020/05/26/20200526/</id>
+    <link href="https://akayi07.github.io/2020/05/26/20200526/"/>
+    <id>https://akayi07.github.io/2020/05/26/20200526/</id>
     <published>2020-05-25T16:00:00.000Z</published>
     <updated>2020-05-25T16:00:00.000Z</updated>
     
@@ -410,14 +432,14 @@
     
     
     
-    <category term="随笔" scheme="http://ftp6448819.host123.sanfengyun.cn/akayi/tags/%E9%9A%8F%E7%AC%94/"/>
+    <category term="随笔" scheme="https://akayi07.github.io/tags/%E9%9A%8F%E7%AC%94/"/>
     
   </entry>
   
   <entry>
     <title>Onjava8笔记</title>
-    <link href="http://ftp6448819.host123.sanfengyun.cn/akayi/2020/05/21/2020521/"/>
-    <id>http://ftp6448819.host123.sanfengyun.cn/akayi/2020/05/21/2020521/</id>
+    <link href="https://akayi07.github.io/2020/05/21/2020521/"/>
+    <id>https://akayi07.github.io/2020/05/21/2020521/</id>
     <published>2020-05-20T16:00:00.000Z</published>
     <updated>2020-05-20T16:00:00.000Z</updated>
     
@@ -433,30 +455,7 @@
     
     
     
-    <category term="随笔" scheme="http://ftp6448819.host123.sanfengyun.cn/akayi/tags/%E9%9A%8F%E7%AC%94/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Java</title>
-    <link href="http://ftp6448819.host123.sanfengyun.cn/akayi/2020/05/20/20200520java/"/>
-    <id>http://ftp6448819.host123.sanfengyun.cn/akayi/2020/05/20/20200520java/</id>
-    <published>2020-05-19T16:00:00.000Z</published>
-    <updated>2020-05-19T16:00:00.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>去年还是前年学过java，只学到javase就停下来了，前端需要会后端，也可以考虑全栈或者后端方向，我想学java，今天开始学习onjava8,java5太老了，就用这个代替java编程思想。</p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;去年还是前年学过java，只学到javase就停下来了，前端需要会后端，也可以考虑全栈或者后端方向，我想学java，今天开始学习onjava8,java5太老了，就用这个代替java编程思想。&lt;/p&gt;
-</summary>
-      
-    
-    
-    
-    
-    <category term="随笔" scheme="http://ftp6448819.host123.sanfengyun.cn/akayi/tags/%E9%9A%8F%E7%AC%94/"/>
+    <category term="随笔" scheme="https://akayi07.github.io/tags/%E9%9A%8F%E7%AC%94/"/>
     
   </entry>
   
