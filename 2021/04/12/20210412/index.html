@@ -242,7 +242,7 @@
     <div class="post-body" itemprop="articleBody">
 
       
-        <p>因为github最近不稳，所以最近博客都写自己电脑上了，现在传一个新的，之后写完再传之前的。<br>项目有个大屏，要求把我做的7个大屏用3d相册形式放一个页面，项目经理找了html5的源码，但是不好放在vue里，所以我自己重写了，我用transform和转换视角做出了效果，有个问题，要求点击左右箭头图片看起来是轮播的，我本来思路都是v-on:class和v-if,v-show,我突然想到可以用数组，imgLists.slice(1).concat(imgLists.slice(0, 1))类似这样不就可以切换图片顺序，配合nth-child就好了，在这里记录一下。</p>
+        <p>因为github最近不稳，所以最近博客都写自己电脑上了，现在传一个新的，之后写完再传之前的。<br>项目有个大屏，要求把我做的7个大屏用3d相册形式放一个页面，项目经理找了html5的源码，但是不好放在vue里，所以我自己重写了，我用transform和转换视角做出了效果，有个问题，要求点击左右箭头图片看起来是轮播的，我本来思路都是v-on:class和v-if,v-show,我突然想到可以用数组，<code>imgLists.slice(1).concat(imgLists.slice(0, 1))<code>类似这样不就可以切换图片顺序，配合nth-child就好了，在这里记录一下。</p>
 
     </div>
 
