@@ -23,12 +23,12 @@
     <published>2021-04-11T16:00:00.000Z</published>
     <updated>2021-04-11T16:00:00.000Z</updated>
     
-    <content type="html"><![CDATA[<p>因为github最近不稳，所以最近博客都写自己电脑上了，现在传一个新的，之后写完再传之前的。<br>项目有个大屏，要求把我做的7个大屏用3d相册形式放一个页面，项目经理找了html5的源码，但是不好放在vue里，所以我自己重写了，我用transform和转换视角做出了效果，有个问题，要求点击左右箭头图片看起来是轮播的，我本来思路都是v-on:class和v-if,v-show,我突然想到可以用数组，<code>imgLists.slice(1).concat(imgLists.slice(0, 1))<code>类似这样不就可以切换图片顺序，配合nth-child就好了，在这里记录一下。</p>]]></content>
+    <content type="html"><![CDATA[<h1 id="项目有个大屏，要求把我做的7个大屏用3d相册形式放一个页面，项目经理找了html5的源码，但是不好放在vue里，所以我自己重写了，我用transform和转换视角做出了效果，有个问题，要求点击左右箭头图片看起来是轮播的，我本来思路都是v-on-class和v-if-v-show-我突然想到可以用数组，imgLists-slice-1-concat-imgLists-slice-0-1-类似这样不就可以切换图片顺序，配合nth-child就好了，在这里记录一下。"><a href="#项目有个大屏，要求把我做的7个大屏用3d相册形式放一个页面，项目经理找了html5的源码，但是不好放在vue里，所以我自己重写了，我用transform和转换视角做出了效果，有个问题，要求点击左右箭头图片看起来是轮播的，我本来思路都是v-on-class和v-if-v-show-我突然想到可以用数组，imgLists-slice-1-concat-imgLists-slice-0-1-类似这样不就可以切换图片顺序，配合nth-child就好了，在这里记录一下。" class="headerlink" title="项目有个大屏，要求把我做的7个大屏用3d相册形式放一个页面，项目经理找了html5的源码，但是不好放在vue里，所以我自己重写了，我用transform和转换视角做出了效果，有个问题，要求点击左右箭头图片看起来是轮播的，我本来思路都是v-on:class和v-if,v-show,我突然想到可以用数组，imgLists.slice(1).concat(imgLists.slice(0, 1))类似这样不就可以切换图片顺序，配合nth-child就好了，在这里记录一下。  "></a>项目有个大屏，要求把我做的7个大屏用3d相册形式放一个页面，项目经理找了html5的源码，但是不好放在vue里，所以我自己重写了，我用transform和转换视角做出了效果，有个问题，要求点击左右箭头图片看起来是轮播的，我本来思路都是v-on:class和v-if,v-show,我突然想到可以用数组，imgLists.slice(1).concat(imgLists.slice(0, 1))类似这样不就可以切换图片顺序，配合nth-child就好了，在这里记录一下。  </h1><h1 id="20210414"><a href="#20210414" class="headerlink" title="20210414"></a>20210414</h1><p>项目经理早上说客户要求切换有动画效果，我之前的数组肯定是没有的，我考虑用v-on:style，从改变src数组变成改变style数组，然后translate不能这样写了，考虑用绝对定位top,left代替，方便只过渡位置，不过渡其他样式。最后发现确实可行，本来以为要重新想3d相册的思路，这样改动最少,有了思路几分钟就改好了。</p>]]></content>
     
     
       
       
-    <summary type="html">&lt;p&gt;因为github最近不稳，所以最近博客都写自己电脑上了，现在传一个新的，之后写完再传之前的。&lt;br&gt;项目有个大屏，要求把我做的7个大屏用3d相册形式放一个页面，项目经理找了html5的源码，但是不好放在vue里，所以我自己重写了，我用transform和转换视角做出了效果，</summary>
+    <summary type="html">&lt;h1 id=&quot;项目有个大屏，要求把我做的7个大屏用3d相册形式放一个页面，项目经理找了html5的源码，但是不好放在vue里，所以我自己重写了，我用transform和转换视角做出了效果，有个问题，要求点击左右箭头图片看起来是轮播的，我本来思路都是v-on-class和v-if</summary>
       
     
     
