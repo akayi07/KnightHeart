@@ -179,6 +179,77 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://akayi07.github.io/2020/01/26/20200126/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.jpg">
+      <meta itemprop="name" content="卓利苗(Zhuo Limiao)">
+      <meta itemprop="description" content="akayi's blog">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="akayi写字的地方">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2020/01/26/20200126/" class="post-title-link" itemprop="url">学习碰到的知识</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              <time title="创建时间：2020-01-26 00:00:00" itemprop="dateCreated datePublished" datetime="2020-01-26T00:00:00+08:00">2020-01-26</time>
+            </span>
+
+          <br>
+            <span class="post-meta-item" title="本文字数">
+              <span class="post-meta-item-icon">
+                <i class="far fa-file-word"></i>
+              </span>
+                <span class="post-meta-item-text">本文字数：</span>
+              <span>63</span>
+            </span>
+            <span class="post-meta-item" title="阅读时长">
+              <span class="post-meta-item-icon">
+                <i class="far fa-clock"></i>
+              </span>
+                <span class="post-meta-item-text">阅读时长 &asymp;</span>
+              <span>1 分钟</span>
+            </span>
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <p>js性能优化的知识:使用eval相当于在运行时再次调用解释引擎对内容进行运行，需要消耗大量时间，而且使用Eval有安全性问题。</p>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
     <link itemprop="mainEntityOfPage" href="https://akayi07.github.io/2020/01/25/20200125/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -381,77 +452,6 @@
           <p>1.<a target="_blank" rel="noopener" href="https://developer.aliyun.com/ask/75170?spm=a2c6h.13159736">纯CSS实现圆角框</a>:，我<a target="_blank" rel="noopener" href="https://github.com/akayi07/Practice/tree/master/Practice2019/%E7%99%BE%E5%BA%A6%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF%E5%AD%A6%E9%99%A2%E7%9A%84%E9%83%A8%E5%88%86%E7%BB%83%E4%B9%A0/2015-task01">应用</a>了一下，虽然border-radius就可以。发现一个问题，无论我怎么设置，都只有上下边框，但是通过了css验证和html验证，然后肉眼debug出来了，<strong>我把border：#000;写在后面覆盖了边框样式，简写属性省略的值取默认值，border-style默认值是none</strong>,所以我前面的样式失效了。<br>2.div {<br>    margin: auto;<br>    position: absolute;<br>    top: 0;<br>    left: 0;<br>    right: 0<br>    bottom: 0;<br>    width: 100px;<br>    height: 100px;<br>}<br>为什么能在浏览器中居中。这个问题昨天找了一天，没有可靠的解答，今天找到个解释，姑且放这，以后深入学习一下验证正确性：<a target="_blank" rel="noopener" href="https://blog.csdn.net/Mr_lizi/article/details/83384468">https://blog.csdn.net/Mr_lizi/article/details/83384468</a> 和 <a target="_blank" rel="noopener" href="https://blog.csdn.net/qq_39148344/article/details/83018735">https://blog.csdn.net/qq_39148344/article/details/83018735</a> ，(Keyword:格式化高度和宽度，流动性)。个人试了一下，无论left,right,bottom,right取什么值，都可以达到目的，margin: auto; 在绝对定位元素的水平和垂直方向都起作用了，目前看来这一解释是可信的。<br>3.让一个HTML节点居中的各种实现方式一些思路：<a target="_blank" rel="noopener" href="https://www.cnblogs.com/SallyShan/p/11480685.html">https://www.cnblogs.com/SallyShan/p/11480685.html</a> 。里面有些错误，如inline-block。</p>
 <hr>
 update on january 12th, 2020
-
-      
-    </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
-      
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="https://akayi07.github.io/2020/01/06/20200106/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.jpg">
-      <meta itemprop="name" content="卓利苗(Zhuo Limiao)">
-      <meta itemprop="description" content="akayi's blog">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="akayi写字的地方">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/2020/01/06/20200106/" class="post-title-link" itemprop="url">过去的总结</a>
-        </h2>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">发表于</span>
-
-              <time title="创建时间：2020-01-06 00:00:00" itemprop="dateCreated datePublished" datetime="2020-01-06T00:00:00+08:00">2020-01-06</time>
-            </span>
-
-          <br>
-            <span class="post-meta-item" title="本文字数">
-              <span class="post-meta-item-icon">
-                <i class="far fa-file-word"></i>
-              </span>
-                <span class="post-meta-item-text">本文字数：</span>
-              <span>103</span>
-            </span>
-            <span class="post-meta-item" title="阅读时长">
-              <span class="post-meta-item-icon">
-                <i class="far fa-clock"></i>
-              </span>
-                <span class="post-meta-item-text">阅读时长 &asymp;</span>
-              <span>1 分钟</span>
-            </span>
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <p>4月到现在入行快10个月了，学到了很多前端的东西，vue和layui更加熟悉了。<br>activex控件也学了点东西，客户要用嘛。客户要求了很多东西，所以更熟悉layui的源码了，因为必须改源码才能实现一些功能。</p>
 
       
     </div>

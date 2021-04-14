@@ -164,6 +164,29 @@
   </entry>
   
   <entry>
+    <title>过去的总结</title>
+    <link href="https://akayi07.github.io/2021/01/06/20210106/"/>
+    <id>https://akayi07.github.io/2021/01/06/20210106/</id>
+    <published>2021-01-05T16:00:00.000Z</published>
+    <updated>2021-01-05T16:00:00.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>4月到现在入行快10个月了，学到了很多前端的东西，vue和layui更加熟悉了。<br>activex控件也学了点东西，客户要用嘛。客户要求了很多东西，所以更熟悉layui的源码了，因为必须改源码才能实现一些功能。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;4月到现在入行快10个月了，学到了很多前端的东西，vue和layui更加熟悉了。&lt;br&gt;activex控件也学了点东西，客户要用嘛。客户要求了很多东西，所以更熟悉layui的源码了，因为必须改源码才能实现一些功能。&lt;/p&gt;
+</summary>
+      
+    
+    
+    
+    
+    <category term="随笔" scheme="https://akayi07.github.io/tags/%E9%9A%8F%E7%AC%94/"/>
+    
+  </entry>
+  
+  <entry>
     <title>点击事件</title>
     <link href="https://akayi07.github.io/2020/10/21/20201021/"/>
     <id>https://akayi07.github.io/2020/10/21/20201021/</id>
@@ -426,29 +449,6 @@
       
       
     <summary type="html">&lt;p&gt;今天看了这篇文章，虽然是09年的文章，但是因为自学过前端，很多东西都是熟悉的，更加了解浏览器的工作原理了。&lt;br&gt;&lt;br&gt;之前自学把vue项目部署到github过，昨天了解到最近在做的公司项目是用ftp传到服务器的，前后端分离开发最后放一起了，我要学一下怎么部署。&lt;/p&gt;
-</summary>
-      
-    
-    
-    
-    
-    <category term="随笔" scheme="https://akayi07.github.io/tags/%E9%9A%8F%E7%AC%94/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Onjava8笔记</title>
-    <link href="https://akayi07.github.io/2020/05/21/2020521/"/>
-    <id>https://akayi07.github.io/2020/05/21/2020521/</id>
-    <published>2020-05-20T16:00:00.000Z</published>
-    <updated>2020-05-20T16:00:00.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>1.Java 确定了每种基本类型的内存占用大小。 这些大小不会像其他一些语言那样随着机器环境的变化而变化。这种不变性也是 Java 更具可移植性的一个原因。</p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;1.Java 确定了每种基本类型的内存占用大小。 这些大小不会像其他一些语言那样随着机器环境的变化而变化。这种不变性也是 Java 更具可移植性的一个原因。&lt;/p&gt;
 </summary>
       
     
