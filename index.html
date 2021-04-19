@@ -250,6 +250,79 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://akayi07.github.io/2021/03/22/20210322/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.jpg">
+      <meta itemprop="name" content="卓利苗(Zhuo Limiao)">
+      <meta itemprop="description" content="akayi's blog">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="akayi写字的地方">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2021/03/22/20210322/" class="post-title-link" itemprop="url">Vue源码学习</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              <time title="创建时间：2021-03-22 00:00:00" itemprop="dateCreated datePublished" datetime="2021-03-22T00:00:00+08:00">2021-03-22</time>
+            </span>
+
+          <br>
+            <span class="post-meta-item" title="本文字数">
+              <span class="post-meta-item-icon">
+                <i class="far fa-file-word"></i>
+              </span>
+                <span class="post-meta-item-text">本文字数：</span>
+              <span>1.9k</span>
+            </span>
+            <span class="post-meta-item" title="阅读时长">
+              <span class="post-meta-item-icon">
+                <i class="far fa-clock"></i>
+              </span>
+                <span class="post-meta-item-text">阅读时长 &asymp;</span>
+              <span>2 分钟</span>
+            </span>
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <p>  今天是2021年3月22日,用<code>vue</code>有一年了，从自学做demo入行到做公司项目，总结了下做过7个公司项目，5个是vue，不过有3个接手时基本已经完成了，只不过同事离职了或者有别的项目，我只负责了开头或者改bug。有两个项目，一个公司内部的看板是独立负责前端，一个是新增的几个模块也是我独立负责前端。<br>  我从<code>github</code>上<code>clone</code>了v2.6.11的版本，用cmd查看了项目目录结构是这样的：  </p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br><span class="line">88</span><br><span class="line">89</span><br><span class="line">90</span><br><span class="line">91</span><br><span class="line">92</span><br><span class="line">93</span><br><span class="line">94</span><br><span class="line">95</span><br><span class="line">96</span><br><span class="line">97</span><br><span class="line">98</span><br><span class="line">99</span><br><span class="line">100</span><br><span class="line">101</span><br><span class="line">102</span><br><span class="line">103</span><br><span class="line">104</span><br><span class="line">105</span><br><span class="line">106</span><br><span class="line">107</span><br><span class="line">108</span><br><span class="line">109</span><br><span class="line">110</span><br><span class="line">111</span><br><span class="line">112</span><br><span class="line">113</span><br><span class="line">114</span><br></pre></td><td class="code"><pre><span class="line">├─.circleci</span><br><span class="line">├─benchmarks</span><br><span class="line">│  ├─big-table</span><br><span class="line">│  ├─dbmon</span><br><span class="line">│  │  └─lib</span><br><span class="line">│  ├─reorder-list</span><br><span class="line">│  ├─ssr</span><br><span class="line">│  ├─svg</span><br><span class="line">│  └─uptime</span><br><span class="line">├─dist                       # 项目构建后的文件</span><br><span class="line">├─examples</span><br><span class="line">│  ├─commits</span><br><span class="line">│  ├─elastic-header</span><br><span class="line">│  ├─firebase</span><br><span class="line">│  ├─grid</span><br><span class="line">│  ├─markdown</span><br><span class="line">│  ├─modal</span><br><span class="line">│  ├─move-animations</span><br><span class="line">│  ├─select2</span><br><span class="line">│  ├─svg</span><br><span class="line">│  ├─todomvc</span><br><span class="line">│  └─tree</span><br><span class="line">├─flow                       # flow的类型声明文件</span><br><span class="line">├─packages</span><br><span class="line">│  ├─vue-server-renderer</span><br><span class="line">│  │  └─types</span><br><span class="line">│  ├─vue-template-compiler</span><br><span class="line">│  │  └─types</span><br><span class="line">│  ├─weex-template-compiler</span><br><span class="line">│  └─weex-vue-framework</span><br><span class="line">├─scripts                   # 与项目构建相关的脚本和配置文件</span><br><span class="line">│  └─git-hooks</span><br><span class="line">├─src                       # 项目源代码</span><br><span class="line">│  ├─compiler               # 与模板编译相关的代码</span><br><span class="line">│  │  ├─codegen</span><br><span class="line">│  │  ├─directives</span><br><span class="line">│  │  └─parser</span><br><span class="line">│  ├─core                   # 通用的、与运行平台无关的运行时代码</span><br><span class="line">│  │  ├─components          # 内置组件的代码</span><br><span class="line">│  │  ├─global-api          # 全局api的代码</span><br><span class="line">│  │  ├─instance            # Vue.js实例的构造函数和原型方法</span><br><span class="line">│  │  │  └─render-helpers</span><br><span class="line">│  │  ├─observer            # 实现变化侦测的代码</span><br><span class="line">│  │  ├─util</span><br><span class="line">│  │  └─vdom                # 实现virtual dom的代码</span><br><span class="line">│  │      ├─helpers</span><br><span class="line">│  │      └─modules</span><br><span class="line">│  ├─platforms               # 特定运行平台的代码，如weex</span><br><span class="line">│  │  ├─web</span><br><span class="line">│  │  │  ├─compiler</span><br><span class="line">│  │  │  │  ├─directives</span><br><span class="line">│  │  │  │  └─modules</span><br><span class="line">│  │  │  ├─runtime</span><br><span class="line">│  │  │  │  ├─components</span><br><span class="line">│  │  │  │  ├─directives</span><br><span class="line">│  │  │  │  └─modules</span><br><span class="line">│  │  │  ├─server</span><br><span class="line">│  │  │  │  ├─directives</span><br><span class="line">│  │  │  │  └─modules</span><br><span class="line">│  │  │  └─util</span><br><span class="line">│  │  └─weex</span><br><span class="line">│  │      ├─compiler</span><br><span class="line">│  │      │  ├─directives</span><br><span class="line">│  │      │  └─modules</span><br><span class="line">│  │      │      └─recycle-list</span><br><span class="line">│  │      ├─runtime</span><br><span class="line">│  │      │  ├─components</span><br><span class="line">│  │      │  ├─directives</span><br><span class="line">│  │      │  ├─modules</span><br><span class="line">│  │      │  └─recycle-list</span><br><span class="line">│  │      └─util</span><br><span class="line">│  ├─server                 # 与服务端渲染相关的代码</span><br><span class="line">│  │  ├─bundle-renderer</span><br><span class="line">│  │  ├─optimizing-compiler</span><br><span class="line">│  │  ├─template-renderer</span><br><span class="line">│  │  └─webpack-plugin</span><br><span class="line">│  ├─sfc                    # 单文件组件的解析代码</span><br><span class="line">│  └─shared                 # 项目公用的工具代码</span><br><span class="line">├─test                      # 项目测试代码</span><br><span class="line">│  ├─e2e</span><br><span class="line">│  │  └─specs</span><br><span class="line">│  ├─helpers</span><br><span class="line">│  ├─ssr</span><br><span class="line">│  │  └─fixtures</span><br><span class="line">│  ├─unit</span><br><span class="line">│  │  ├─features</span><br><span class="line">│  │  │  ├─component</span><br><span class="line">│  │  │  ├─directives</span><br><span class="line">│  │  │  ├─filter</span><br><span class="line">│  │  │  ├─global-api</span><br><span class="line">│  │  │  ├─instance</span><br><span class="line">│  │  │  ├─options</span><br><span class="line">│  │  │  └─transition</span><br><span class="line">│  │  └─modules</span><br><span class="line">│  │      ├─compiler</span><br><span class="line">│  │      ├─observer</span><br><span class="line">│  │      ├─server-compiler</span><br><span class="line">│  │      ├─sfc</span><br><span class="line">│  │      ├─util</span><br><span class="line">│  │      └─vdom</span><br><span class="line">│  │          ├─modules</span><br><span class="line">│  │          └─patch</span><br><span class="line">│  └─weex                   </span><br><span class="line">│      ├─cases</span><br><span class="line">│      │  ├─event</span><br><span class="line">│      │  ├─recycle-list</span><br><span class="line">│      │  │  └─components</span><br><span class="line">│      │  └─render</span><br><span class="line">│      ├─compiler</span><br><span class="line">│      ├─helpers</span><br><span class="line">│      └─runtime</span><br><span class="line">│          └─components</span><br><span class="line">└─types</span><br><span class="line">    └─test</span><br></pre></td></tr></table></figure>
+<p>aa</p>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
     <link itemprop="mainEntityOfPage" href="https://akayi07.github.io/2021/03/19/20210319/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -614,84 +687,6 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="https://akayi07.github.io/2021/01/25/2021125/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.jpg">
-      <meta itemprop="name" content="卓利苗(Zhuo Limiao)">
-      <meta itemprop="description" content="akayi's blog">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="akayi写字的地方">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/2021/01/25/2021125/" class="post-title-link" itemprop="url">用Hexo重新创建博客的过程与心得</a>
-        </h2>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">发表于</span>
-
-              <time title="创建时间：2021-01-25 00:00:00" itemprop="dateCreated datePublished" datetime="2021-01-25T00:00:00+08:00">2021-01-25</time>
-            </span>
-
-          <br>
-            <span class="post-meta-item" title="本文字数">
-              <span class="post-meta-item-icon">
-                <i class="far fa-file-word"></i>
-              </span>
-                <span class="post-meta-item-text">本文字数：</span>
-              <span>285</span>
-            </span>
-            <span class="post-meta-item" title="阅读时长">
-              <span class="post-meta-item-icon">
-                <i class="far fa-clock"></i>
-              </span>
-                <span class="post-meta-item-text">阅读时长 &asymp;</span>
-              <span>1 分钟</span>
-            </span>
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <p>这个博客之前是用jekyll写的，现在改成了hexo</p>
-          <!--noindex-->
-            <div class="post-button">
-              <a class="btn" href="/2021/01/25/2021125/">
-                阅读全文 &raquo;
-              </a>
-            </div>
-          <!--/noindex-->
-        
-      
-    </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
-      
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
     <link itemprop="mainEntityOfPage" href="https://akayi07.github.io/2021/01/06/20210106/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -1030,19 +1025,19 @@
     <span class="post-meta-item-icon">
       <i class="fa fa-chart-area"></i>
     </span>
-    <span title="站点总字数">14k</span>
+    <span title="站点总字数">15k</span>
     <span class="post-meta-divider">|</span>
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
-    <span title="站点阅读时长">12 分钟</span>
+    <span title="站点阅读时长">14 分钟</span>
 </div>
   <div class="powered-by">由 <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Gemini</a> 强力驱动
   </div>
 
 <div class="theme-info">
   <div class="powered-by"></div>
-  <span class="post-count">博客全站共8.8k字</span>
+  <span class="post-count">博客全站共9.1k字</span>
 </div>
 
         
