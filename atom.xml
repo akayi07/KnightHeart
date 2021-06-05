@@ -6,7 +6,7 @@
   <link href="https://akayi07.github.io/atom.xml" rel="self"/>
   
   <link href="https://akayi07.github.io/"/>
-  <updated>2021-04-11T16:00:00.000Z</updated>
+  <updated>2021-06-04T16:00:00.000Z</updated>
   <id>https://akayi07.github.io/</id>
   
   <author>
@@ -15,6 +15,71 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>学习记录</title>
+    <link href="https://akayi07.github.io/2021/06/05/20210605/"/>
+    <id>https://akayi07.github.io/2021/06/05/20210605/</id>
+    <published>2021-06-04T16:00:00.000Z</published>
+    <updated>2021-06-04T16:00:00.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>记录下学习记录，一直没好好记，目前已入职一个多月，提高技术，向目标迈进。  </p><p>20210528：编码 by查尔斯配措尔德<br>20210604: 鸟哥的linux私房菜官网看了前面几章了解历史<br>20210605：The Linux Command Line by William Shotts</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;记录下学习记录，一直没好好记，目前已入职一个多月，提高技术，向目标迈进。  &lt;/p&gt;
+&lt;p&gt;20210528：编码 by查尔斯配措尔德&lt;br&gt;20210604: 鸟哥的linux私房菜官网看了前面几章了解历史&lt;br&gt;20210605：The Linux Command Li</summary>
+      
+    
+    
+    
+    
+    <category term="随笔" scheme="https://akayi07.github.io/tags/%E9%9A%8F%E7%AC%94/"/>
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="https://akayi07.github.io/2021/05/15/20210422/"/>
+    <id>https://akayi07.github.io/2021/05/15/20210422/</id>
+    <published>2021-05-15T03:29:55.339Z</published>
+    <updated>2021-05-15T03:29:55.339Z</updated>
+    
+    <content type="html"><![CDATA[<p>外包驻场绝对不去<br>算法不行<br>早上上海银帆科技有限公司先笔试再问问题，问我期望薪资，我说10000上下，<br>下午鸣皋教育，距离远，用了一下午，坐错地铁了，拼命赶路流了很多汗，电话打不通，找到了也从2点等到快3点，没什么诚意，问了算法和set去重原理，深拷贝等，答不出来就结束了，感觉这公司不太好，答不出来归答不出来，浪费我一下午。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;外包驻场绝对不去&lt;br&gt;算法不行&lt;br&gt;早上上海银帆科技有限公司先笔试再问问题，问我期望薪资，我说10000上下，&lt;br&gt;下午鸣皋教育，距离远，用了一下午，坐错地铁了，拼命赶路流了很多汗，电话打不通，找到了也从2点等到快3点，没什么诚意，问了算法和set去重原理，深拷贝等，</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="https://akayi07.github.io/2021/05/15/20210325/"/>
+    <id>https://akayi07.github.io/2021/05/15/20210325/</id>
+    <published>2021-05-15T03:28:25.014Z</published>
+    <updated>2021-05-15T03:28:25.014Z</updated>
+    
+    <content type="html"><![CDATA[<p>学习过程中碰到的额外东西随便写写。</p><ol><li><p>   NAT（Network Address Translation）：网络地址转换协议。NAT不仅能解决IP地址不足的问题，而且还能够有效地避免来自网络外部的攻击，隐藏并保护网络内部的计算机。nat路由器。端口映射</p></li><li><p>   国际化域名（Internationalized Domain Names） ，英文简称 IDN,也叫多语种域名，是指非英语国家为推广本国语言的域名系统的一个总称。</p></li><li><p>   转移注册商,内网穿透。</p></li><li><p>   NAS（Network Attached Storage：网络附属存储）连接在网络上，具备资料存储功能的装置，因此也称为“网络存储器”。它是一种专用数据存储服务器。它以数据为中心，将存储设备与服务器彻底分离，集中管理数据，从而释放带宽、提高性能、降低总拥有成本、保护投资。其成本远远低于使用服务器存储，而效率却远远高于后者。<br>Updated on 3/26.2021</p></li><li><p>   DDNS（Dynamic Domain Name Server，动态域名服务）<br>DDNS用来动态更新DNS服务器上域名和IP地址之间的对应关系，从而保证通过域名访问到正确的IP地址。</p></li><li><p>   MOdulatorDEModulator，电话线，模拟信号和数字信号转换。电话线的问题是短距离可以传输数字信号，长距离信号衰减严重。</p></li><li><p>   互联网服务提供商（Internet Service Provider），简称ISP，接入服务，导航服务，信息服务</p></li><li><p>   基于以上，花生壳等产品可以通过DDNS让外网访问服务器。</p></li><li><p>   域名解析是把域名指向网站空间IP，让人们通过注册的域名可以方便地访问到网站的一种服务。IP地址是网络上标识站点的数字地址，为了方便记忆，采用域名来代替IP地址标识站点地址。域名解析就是域名到IP地址的转换过程。域名的解析工作由DNS服务器完成。</p></li><li><p>   利用 SSH 协议可以有效防止远程管理过程中的信息泄露问题。</p></li><li><p>   虚拟机属于虚拟化技术。而Docker这样的容器技术，也是虚拟化技术，属于轻量级的虚拟化。</p></li><li><p>   Docker<br>不同的应用程序可能会有不同的应用环境，这个时候就要隔离。可以在服务器上创建不同的虚拟机在不同的虚拟机上放置不同的应用，开销高。docker可以实现虚拟机隔离应用环境的功能，并且开销比虚拟机小，小就意味着省钱了。<br>开发用Ubuntu，但是运维管理的都是centos，运维在把你的软件从开发环境转移到生产环境的时候就会遇到一些Ubuntu转centos的问题，有docker你就可以把开发环境直接封装转移给运维，运维直接部署docker。部署速度快。<br>在服务器负载方面，单独开一个虚拟机会占用空闲内存的，docker的话，这些内存就会利用起来。</p></li><li><p>前几天网上看到的ctrl+enter直接浏览器跳转url，刚知道。上上周同事nginx用命令行重启，我做的第一个项目发现行不通，就任务管理器手动，然后前几天看了下nginx官方文档，才发现是可以重启的，别人博客写的命令错了，还是要看官方的文档。</p></li><li><p>看到知乎有个问题，9.9服务器不能用。玉伯说每月 9.9 元，一年 120 元，一个星期只吃馒头，钱就省出来了。别跟我说馒头不好吃，穷就得学会吃点苦，学会感激这年头再穷还能吃上馒头不至饿死。我好像看错题目了，题主是吐槽 9.9 元每月的阿里云服务器跑不动你的代码？如果是这样，建议每天多吃几个馒头，然后熬点夜，把程序优化到 9.9 元的服务器也能跑动。笑死。</p></li><li><p>桥接（Bridging），是指依据OSI网络模型的链路层的地址，对网络数据包进行转发的过程，工作在OSI的第二层。一般的交换机，网桥就有桥接作用。<br>路由器和交换机区别<br>路由器实现了不同网络之间的数据转发，交换机实现了特定网络内的数据交换。</p></li><li><p>   工作层次不同：<br>交换机主要工作在数据链路层（第二层）<br>路由器工作在网络层（第三层）。</p></li><li><p>转发依据不同：<br>交换机转发所依据的对象时：MAC地址。（物理地址）<br>路由转发所依据的对象是：IP地址。（网络地址）</p></li><li><p>主要功能不同：<br>交换机主要用于组建局域网，<br>而路由主要功能是将由交换机组好的局域网相互连接起来，或者接入Internet。<br>交换机能做的，路由都能做。<br>交换机不能分割广播域，路由可以。<br>路由还可以提供防火墙的功能。<br>路由配置比交换机复杂。</p></li><li><p>价格不同</p></li></ol><p>有线桥接<br>方式一：搭建子网络 LAN-WAN 方式二：当 AP（无线交换机）使用 LAN-LAN<br>地址解析协议，即ARP（Address Resolution Protocol），是根据IP地址获取物理地址的一个TCP/IP协议。</p><p>1Mbps = 128KB/s<br>20210330<br>16.昨晚花了3小时想把移动送的光猫和一台旧的斐讯路由器桥接，结果发现不行，因为担心光猫桥接模式会导致不能上网，所以只能用斐讯作为副路由器，移动的路由器进超级管理员没发现wds功能，只得作罢。<br>至于nas，我下载了恩山无线论坛的黑群晖也做好了引导文件，大学时候的笔记本准备双系统或者直接dsm系统。太晚了有空再说。<br>17. 路由器桥接时，为什么要关闭dhcp服务器？<br>存在IP地址冲突<br>网关不正确<br>18.用虚拟机virtualbox和vmware station装dsm系统,发现群晖助手和网页都找不到nas,不知道是不是mac地址问题,还是其他问题，只能作罢。<br>Update on 20210402<br>19.这几天有空都在想办法桥接和dsm，都失败了，应该是网卡问题，旧笔记本是在学校时候买的，网卡太老，也不是intel的，要么加网卡要么加驱动。<br>今天用三丰云虚拟主机建立了博客网站<a href="http://ftp6448819.host123.sanfengyun.cn/akayi/%EF%BC%8C%E5%9B%A0%E4%B8%BAgithub%E6%9C%80%E8%BF%91%E4%B8%8D%E5%A4%AA%E7%A8%B3%E5%AE%9A%EF%BC%8C%E7%9B%AE%E5%89%8D%E9%97%AE%E9%A2%98%E6%98%AF%E5%85%8D%E8%B4%B9%E7%9A%84%E4%B8%8D%E6%94%AF%E6%8C%81node%EF%BC%8C%E4%B8%8D%E8%83%BD%E6%B8%B2%E6%9F%93css%EF%BC%8C%E6%88%91%E5%B0%9D%E8%AF%95%E4%BD%BF%E7%94%A8hexo%E7%9A%84ftpsync%E9%83%A8%E7%BD%B2%E3%80%82%E7%84%B6%E5%90%8E%E5%8F%91%E7%8E%B0%E6%8A%A5%E9%94%99%EF%BC%8C%E7%99%BE%E5%BA%A6%E4%BA%86%E5%BE%88%E4%B9%85%E6%89%BE%E4%B8%8D%E5%88%B0%E5%8A%9E%E6%B3%95%EF%BC%8C%E5%8F%AA%E5%A5%BD%E5%83%8F%E6%94%B9bug%E4%B8%80%E6%A0%B7%E8%87%AA%E5%B7%B1%E4%BF%AE%E6%94%B9ftpsync%E7%9A%84js%E4%BB%A3%E7%A0%81%EF%BC%8C%E6%B2%A1%E6%83%B3%E5%88%B0%E9%A9%AC%E4%B8%8A%E6%88%90%E5%8A%9F%E4%BA%86%EF%BC%8C%E8%87%AA%E5%B7%B1%E6%87%82%E7%9A%84%E8%BF%98%E6%98%AF%E8%87%AA%E5%B7%B1%E6%94%B9%E5%90%A7%EF%BC%8C%E4%B8%8D%E9%9A%BE%E3%80%82">http://ftp6448819.host123.sanfengyun.cn/akayi/，因为github最近不太稳定，目前问题是免费的不支持node，不能渲染css，我尝试使用hexo的ftpsync部署。然后发现报错，百度了很久找不到办法，只好像改bug一样自己修改ftpsync的js代码，没想到马上成功了，自己懂的还是自己改吧，不难。</a></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;学习过程中碰到的额外东西随便写写。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;   NAT（Network Address Translation）：网络地址转换协议。NAT不仅能解决IP地址不足的问题，而且还能够有效地避免来自网络外部的攻击，隐藏并保护网络内部的计算机。nat路由器</summary>
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>轮播新思路</title>
@@ -387,74 +452,6 @@
       
     <summary type="html">&lt;p&gt;今天看了这篇文章，虽然是09年的文章，但是因为自学过前端，很多东西都是熟悉的，更加了解浏览器的工作原理了。&lt;br&gt;&lt;br&gt;之前自学把vue项目部署到github过，昨天了解到最近在做的公司项目是用ftp传到服务器的，前后端分离开发最后放一起了，我要学一下怎么部署。&lt;/p&gt;
 </summary>
-      
-    
-    
-    
-    
-    <category term="随笔" scheme="https://akayi07.github.io/tags/%E9%9A%8F%E7%AC%94/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Onjava8笔记</title>
-    <link href="https://akayi07.github.io/2020/05/21/2020521/"/>
-    <id>https://akayi07.github.io/2020/05/21/2020521/</id>
-    <published>2020-05-20T16:00:00.000Z</published>
-    <updated>2020-05-20T16:00:00.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>1.Java 确定了每种基本类型的内存占用大小。 这些大小不会像其他一些语言那样随着机器环境的变化而变化。这种不变性也是 Java 更具可移植性的一个原因。</p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;1.Java 确定了每种基本类型的内存占用大小。 这些大小不会像其他一些语言那样随着机器环境的变化而变化。这种不变性也是 Java 更具可移植性的一个原因。&lt;/p&gt;
-</summary>
-      
-    
-    
-    
-    
-    <category term="随笔" scheme="https://akayi07.github.io/tags/%E9%9A%8F%E7%AC%94/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Java</title>
-    <link href="https://akayi07.github.io/2020/05/20/20200520java/"/>
-    <id>https://akayi07.github.io/2020/05/20/20200520java/</id>
-    <published>2020-05-19T16:00:00.000Z</published>
-    <updated>2020-05-19T16:00:00.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>去年还是前年学过java，只学到javase就停下来了，前端需要会后端，也可以考虑全栈或者后端方向，我想学java，今天开始学习onjava8,java5太老了，就用这个代替java编程思想。</p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;去年还是前年学过java，只学到javase就停下来了，前端需要会后端，也可以考虑全栈或者后端方向，我想学java，今天开始学习onjava8,java5太老了，就用这个代替java编程思想。&lt;/p&gt;
-</summary>
-      
-    
-    
-    
-    
-    <category term="随笔" scheme="https://akayi07.github.io/tags/%E9%9A%8F%E7%AC%94/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>一点教训</title>
-    <link href="https://akayi07.github.io/2020/04/25/20200425/"/>
-    <id>https://akayi07.github.io/2020/04/25/20200425/</id>
-    <published>2020-04-24T16:00:00.000Z</published>
-    <updated>2020-04-24T16:00:00.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>公司请了外援，结果一直解决不了跨域，最后用nginx解决了，结果还是不行，最后发现要改代码，路径最后加api，总结就是前端要会点后端，后端要会点前端，全栈最好了，什么都知道，因为大家都不懂，所以交流有障碍，这些问题拖了快2周左右，如果我要坚持前端路线的话全栈是可以走的，<br>这个问题解决其实是试出来的，还是要多学点技术，前端后端走全栈路线。</p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;公司请了外援，结果一直解决不了跨域，最后用nginx解决了，结果还是不行，最后发现要改代码，路径最后加api，总结就是前端要会点后端，后端要会点前端，全栈最好了，什么都知道，因为大家都不懂，所以交流有障碍，这些问题拖了快2周左右，如果我要坚持前端路线的话全栈是可以走的，&lt;b</summary>
       
     
     
