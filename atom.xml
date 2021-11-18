@@ -6,7 +6,7 @@
   <link href="https://akayi07.github.io/atom.xml" rel="self"/>
   
   <link href="https://akayi07.github.io/"/>
-  <updated>2021-06-04T16:00:00.000Z</updated>
+  <updated>2021-11-17T16:00:00.000Z</updated>
   <id>https://akayi07.github.io/</id>
   
   <author>
@@ -15,6 +15,51 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>半年了</title>
+    <link href="https://akayi07.github.io/2021/11/18/20211118/"/>
+    <id>https://akayi07.github.io/2021/11/18/20211118/</id>
+    <published>2021-11-17T16:00:00.000Z</published>
+    <updated>2021-11-17T16:00:00.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>今年4月21来的上海，住的唐陆公路的青年公寓，4月26日住进永华苑，快7个月了。10月5日左右加了很多qq群，认识了很多牛人。无论年龄，薪资，技术我都不如他们，向他们学习。<br>4月16离职，5月1日算是入职现在的创业工作室，老板最近总算注册了公司，说要等银行开户再签劳动合同，等待吧。这期间我学了很多东西也做了一些项目，希望我能变强。<br>我最近私下在看vue和react的原理，我qq认识的高手，研究得很深，还有00年就校招进腾讯的，入行迟了，本来就不如科班的，我努力吧，超越他们。<br>博客很久没写了，我看别人都在写自己的软件，项目，发布博客，我也写起来，算是总结学习吧，我也没宣传过这个博客，博客的评论我4月提了离职没时间做，还没好，有空补。 </p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;今年4月21来的上海，住的唐陆公路的青年公寓，4月26日住进永华苑，快7个月了。10月5日左右加了很多qq群，认识了很多牛人。无论年龄，薪资，技术我都不如他们，向他们学习。&lt;br&gt;4月16离职，5月1日算是入职现在的创业工作室，老板最近总算注册了公司，说要等银行开户再签劳动</summary>
+      
+    
+    
+    
+    
+    <category term="随笔" scheme="https://akayi07.github.io/tags/%E9%9A%8F%E7%AC%94/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Web3文档似乎有错误</title>
+    <link href="https://akayi07.github.io/2021/06/30/20210630/"/>
+    <id>https://akayi07.github.io/2021/06/30/20210630/</id>
+    <published>2021-06-29T16:00:00.000Z</published>
+    <updated>2021-06-29T16:00:00.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>这几个月在做区块链项目，我们只给别人做项目不运营，不违法哈。<br>碰到个问题，web3的web3.utils.bn用法是错的，按bn库的来就对了，浪费了我很多时间。然后send.on的sending和sent好像写反了。看来文档也不可靠，还是要信自己。  </p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;这几个月在做区块链项目，我们只给别人做项目不运营，不违法哈。&lt;br&gt;碰到个问题，web3的web3.utils.bn用法是错的，按bn库的来就对了，浪费了我很多时间。然后send.on的sending和sent好像写反了。看来文档也不可靠，还是要信自己。  &lt;/p&gt;
+</summary>
+      
+    
+    
+    
+    
+    <category term="随笔" scheme="https://akayi07.github.io/tags/%E9%9A%8F%E7%AC%94/"/>
+    
+  </entry>
   
   <entry>
     <title>学习记录</title>
@@ -312,8 +357,7 @@
     
       
       
-    <summary type="html">&lt;pre&gt;&lt;code&gt;今天碰到正式服务器和测试服务器一个有内容一个没内容，最后发现是数据库不一样，后端忘了同步修改数据库。
-&lt;/code&gt;&lt;/pre&gt;
+    <summary type="html">&lt;pre&gt;&lt;code&gt;今天碰到正式服务器和测试服务器一个有内容一个没内容，最后发现是数据库不一样，后端忘了同步修改数据库。&lt;/code&gt;&lt;/pre&gt;
 </summary>
       
     
@@ -405,52 +449,6 @@
       
       
     <summary type="html">&lt;p&gt;想做个项目，需要vuex和node，结果扩展出一堆东西，记个随笔。&lt;/p&gt;
-</summary>
-      
-    
-    
-    
-    
-    <category term="随笔" scheme="https://akayi07.github.io/tags/%E9%9A%8F%E7%AC%94/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>百度速度慢</title>
-    <link href="https://akayi07.github.io/2020/05/30/20200530/"/>
-    <id>https://akayi07.github.io/2020/05/30/20200530/</id>
-    <published>2020-05-29T16:00:00.000Z</published>
-    <updated>2020-05-29T16:00:00.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>最近一周上百度贴吧都很慢，刷新不出，公司电脑就没事，以为是移动的问题，今天周六没事才想起来之前改了dns，记录一下。</p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;最近一周上百度贴吧都很慢，刷新不出，公司电脑就没事，以为是移动的问题，今天周六没事才想起来之前改了dns，记录一下。&lt;/p&gt;
-</summary>
-      
-    
-    
-    
-    
-    <category term="随笔" scheme="https://akayi07.github.io/tags/%E9%9A%8F%E7%AC%94/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>How Does Browser Worker</title>
-    <link href="https://akayi07.github.io/2020/05/26/20200526/"/>
-    <id>https://akayi07.github.io/2020/05/26/20200526/</id>
-    <published>2020-05-25T16:00:00.000Z</published>
-    <updated>2020-05-25T16:00:00.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>今天看了这篇文章，虽然是09年的文章，但是因为自学过前端，很多东西都是熟悉的，更加了解浏览器的工作原理了。<br><br>之前自学把vue项目部署到github过，昨天了解到最近在做的公司项目是用ftp传到服务器的，前后端分离开发最后放一起了，我要学一下怎么部署。</p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;今天看了这篇文章，虽然是09年的文章，但是因为自学过前端，很多东西都是熟悉的，更加了解浏览器的工作原理了。&lt;br&gt;&lt;br&gt;之前自学把vue项目部署到github过，昨天了解到最近在做的公司项目是用ftp传到服务器的，前后端分离开发最后放一起了，我要学一下怎么部署。&lt;/p&gt;
 </summary>
       
     
